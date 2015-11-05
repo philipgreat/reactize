@@ -7,7 +7,7 @@ Here is the html
 <pre>
 <html>
 <body>
-	<div rc="ShoppingCartHeader">test<a a="rer" rc="WelcomeMessage">This is the welcome text<!--sdf comment is still here--></a></div>
+	<div rc="ShoppingCartHeader">test<a a="rer" rc="WelcomeMessage">This is the welcome text<!-- comment is still here--></a></div>
 	<div rc="ShoppingCartBox"> 
 		<div rc="ShoppingCartItems"> 
 			<div rc="ShoppingCartItem"> this is the item 1 </div>
@@ -20,7 +20,7 @@ Here is the html
 </body>
 </html>
 </pre>
-The output react component
+#The output react component
 <pre>
 var WelcomeMessage = React.createClass({
 	render: function() {
@@ -131,3 +131,5 @@ var ShoppingCartFooter = React.createClass({
 	}
 });
 </pre>
+
+#Please help to add more funcitons
