@@ -25,11 +25,11 @@
 
 
 ##Output React Component
-```html
-<pre>
+
+```javascript
 var WelcomeMessage = React.createClass({
 	render: function() {
-		return (<a a="rer">This is the welcome text<!--sdf -->是地方撒地方</a>);
+		return (<a a="rer">This is the welcome text<!--sdf comment is still here--></a>);
 	}
 });
 
@@ -51,6 +51,8 @@ var ShoppingCartItems = React.createClass({
 	render: function() {
 		return (<div> 
 			
+			 
+			
 		<ShoppingCartItem/><ShoppingCartItem/><ShoppingCartItem/></div>);
 	}
 });
@@ -67,9 +69,10 @@ var ShoppingCartBox = React.createClass({
 var ShoppingCartFooter = React.createClass({
 	render: function() {
 		return (<div/>);
-	
+	}
+});
 
-</pre>
+
 ```
 
 
