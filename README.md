@@ -24,7 +24,7 @@ The magic
 <pre>
 var WelcomeMessage = React.createClass({
 	render: function() {
-		return (<a a="rer">This is the welcome text<!--sdf -->是地方撒地方</a>);
+		return (<a a="rer">This is the welcome text<!--sdf --></a>);
 	}
 });
 
