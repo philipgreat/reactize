@@ -44,7 +44,7 @@ fs.readFile('./test.html', 'utf8', function(err, data) {
 		console.log(componentCode);
 	}
 
-	var reactizeNode = function(node, postCallback, preCallback) {
+	var reactize = function(node, postCallback, preCallback) {
 		if (!node) {
 			
 			return;
@@ -63,7 +63,7 @@ fs.readFile('./test.html', 'utf8', function(err, data) {
 		}
 		for (var i = 0; i < childNodes.length; i++) {
 			var childNode = childNodes[i];
-			reactizeNode(childNode, postCallback, preCallback);
+			reactize(childNode, postCallback, preCallback);
 		}
 
 		if (postCallback) {
@@ -76,6 +76,6 @@ fs.readFile('./test.html', 'utf8', function(err, data) {
 
 	//console.info(s.serializeToString(doc));
 
-	reactizeNode(doc, handelNode);
+	reactize(doc, handelNode);
 
 });
