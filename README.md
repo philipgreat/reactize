@@ -1,12 +1,11 @@
-# reactize
-make html to react component
+# Reactize  html to react components
 
-The magic 
 
-#Here is the html 
+
+#Input Html 
 <section></section>
 
-#The output react component
+#Output React Component
 <section></section>
 
 
