@@ -4,7 +4,7 @@ make html to react component
 The magic 
 
 #Here is the html 
-<pre>
+<code>
 <html>
 <body>
 	<div rc="ShoppingCartHeader">test<a a="rer" rc="WelcomeMessage">This is the welcome text<!-- comment is still here--></a></div>
@@ -19,7 +19,7 @@ The magic
 	<div rc="ShoppingCartFooter"/>
 </body>
 </html>
-</pre>
+</code>
 #The output react component
 <pre>
 var WelcomeMessage = React.createClass({
