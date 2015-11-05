@@ -4,7 +4,7 @@ make html to react component
 The magic 
 
 Here is the html 
-
+<pre>
 <html>
 <body>
 	<div rc="ShoppingCartHeader">test<a a="rer" rc="WelcomeMessage">This is the welcome text<!--sdf comment is still here--></a></div>
@@ -19,9 +19,9 @@ Here is the html
 	<div rc="ShoppingCartFooter"/>
 </body>
 </html>
-
+</pre>
 The output react component
-
+<pre>
 var WelcomeMessage = React.createClass({
 	render: function() {
 		return (<a a="rer">This is the welcome text<!--sdf -->是地方撒地方</a>);
@@ -130,4 +130,4 @@ var ShoppingCartFooter = React.createClass({
 		return (<div/>);
 	}
 });
-
+</pre>
