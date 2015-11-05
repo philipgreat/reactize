@@ -8,7 +8,9 @@
 ```html
 <html>
 <body>
-	<div rc="ShoppingCartHeader">test<a a="rer" rc="WelcomeMessage">This is the welcome text<!--sdf comment is still here--></a></div>
+	<div rc="ShoppingCartHeader">Welcome
+	   <a a="rer" rc="WelcomeMessage">This is the welcome text<!--comment is still here--></a>
+	</div>
 	<div rc="ShoppingCartBox"> 
 		<div rc="ShoppingCartItems"> 
 			<div rc="ShoppingCartItem"> this is the item 1 </div>
