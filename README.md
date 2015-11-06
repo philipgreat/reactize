@@ -5,7 +5,7 @@
 node reactize test.html
 
 ##Run 
-
+```html
 node reactize <xhtmlfile1> <htmlfile2> ...
 
 
