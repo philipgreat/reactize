@@ -16,7 +16,7 @@ node reactize test.html
 ##Run 
 ```html
 node reactize <xhtmlfile1> <htmlfile2> ...
-
+```
 
 
 
@@ -60,29 +60,11 @@ var ShoppingCartHeader = React.createClass({
 	}
 });
 
-
-
-var ShoppingCartItem = React.createClass({
-	render: function() {
-		return (<div> this is the item 3 </div>);
-	}
-});
-
-var ShoppingCartItems = React.createClass({
-	render: function() {
-		return (<div> 
-			
-			 
-			
-		<ShoppingCartItem/><ShoppingCartItem/><ShoppingCartItem/></div>);
-	}
-});
+//Other generated components
 
 var ShoppingCartBox = React.createClass({
 	render: function() {
 		return (<div> 
-		
-			
 	<ShoppingCartItems/></div>);
 	}
 });
