@@ -9,15 +9,23 @@
 
 var fs = require('fs');
 
-var args = process.argv.slice(2);
 
-fs.readFile('./test.html', 'utf8', function(err, data) {
-	if (err) {
-		return console.log(err);
-	}
-	reactize(data);
+var reactizeFile = function(filePath){
 
-});
+	fs.readFile(filePath, 'utf8', function(err, data) {
+		if (err) {
+			return console.log(err);
+		}
+		reactize(data);
+
+	});
+}
+
+
+
+
+
+
 
 var reactizeNode = function(node) {
 
@@ -155,3 +163,16 @@ var reactize = function(xmlText) {
 	visiteNode(doc, reactizeNode);
 
 }
+
+
+process.argv.forEach(function (val, index, array) {
+
+	if(index<2){
+		return;
+	}
+	console.log('process file: ' + val);
+
+	reactizeFile(val);
+});
+
+
