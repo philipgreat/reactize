@@ -1,12 +1,23 @@
 # Reactize  html to react components
 
-#Sample Run
+
+##Features
+
+
+
+<li>Destruct HTML intto React Component files</li>
+<li>Replace class to className within Elements</li>
+<li>Keep attributes</li>
+
+##Sample Run
 
 node reactize test.html
 
 ##Run 
 ```html
 node reactize <xhtmlfile1> <htmlfile2> ...
+
+
 
 
 
