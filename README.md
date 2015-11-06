@@ -80,3 +80,8 @@ var ShoppingCartFooter = React.createClass({
 
 
 ##Please help to add more funcitons
+
+##Component used
+
+<li>xmldom: https://github.com/jindw/xmldom</li>
+
