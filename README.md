@@ -1,5 +1,13 @@
 # Reactize  html to react components
 
+#Sample Run
+
+node reactize test.html
+
+##Run 
+
+node reactize <xhtmlfile1> <htmlfile2> ...
+
 
 
 ##Input Html 
