@@ -82,13 +82,62 @@ var exportComponent = function(componentName, node) {
 
 }
 
+
+
 var exportComponentToFile = function(componentName, node) {
+
+	var componentCode = "import React, { Component } from 'react';\n"
+			+"export default class " + componentName + " extends Component {\n"
+			+"\tconstructor(props) {\n"
+			+"\t\tsuper(props);\n"
+			+"\t\tthis.state=props;\n"
+			+"\t\tthis.handleX =  this.handleX.bind(this)\n"
+			+"\t\tthis.handleY =  this.handleY.bind(this)\n"
+			+"\t\tthis.handleZ =  this.handleZ.bind(this)\n"
+			+ "\t}\n"
+			+ "\trender() {\n" + "\t\treturn (" + node + ");\n"
+			+ "\t}\n" 
+			+ "\thandleX: function() {\n\n\t}\n" 
+			+ "\thandleY: function() {\n\n\t}\n" 
+			+ "\thandleZ: function() {\n\n\t}\n" 
+			
+			+ "}\n";
+			
+
+	
+	var fileName = componentName + ".React.js";
+	fs.writeFile(fileName, componentCode, function(err) {
+		if (err){
+			throw err;			
+		}
+		console.log("------------------------"+fileName+"------------------------------");
+		console.log(componentCode);
+		console.log("========================"+fileName+"================================");
+	});
+}
+
+var exportComponentToFile1 = function(componentName, node) {
 
 	var componentCode = "'use strict'\n"
 			+"var React = require('react');\n"
 			+"var " + componentName + " = React.createClass({\n"
+			
 			+ "\trender: function() {\n" + "\t\treturn (" + node + ");\n"
-			+ "\t}\n" + "});\n"
+			+ "\t}\n" 
+			+ "\thandleX: function() {\n\n\t}\n" 
+			+ "\thandleY: function() {\n\n\t}\n" 
+			+ "\thandleZ: function() {\n\n\t}\n" 
+			
+			
+			
+			
+			
+			+ "});\n"
+			
+		
+			
+			
+			
 			+"module.exports = "+componentName+";"
 	
 	var fileName = componentName + ".React.js";

@@ -1,0 +1,29 @@
+{
+  "name": "react-hot-boilerplate",
+  "version": "1.0.0",
+  "description": "The tool  to split the html into react component with simply adding an attribute to HTML tags",
+  "scripts": {
+    "start": "node reactize",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philipgreat/reactize.git"
+  },
+  "keywords": [
+    "react","reactize","html","tool"
+  ],
+  "author": "Philip Zhang <philip_chang@163.com> (http://github.com/philipgreat)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philipgreat/reactize/issues"
+  },
+  "homepage": "https://github.com/philipgreat/reactize",
+  "devDependencies": {
+   
+  },
+  "dependencies": {
+    "xmldom": "^0.1.22",
+   
+  }
+}
