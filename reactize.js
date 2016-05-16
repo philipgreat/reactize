@@ -97,9 +97,9 @@ var exportComponentToFile = function(componentName, node) {
 			+ "\t}\n"
 			+ "\trender() {\n" + "\t\treturn (" + node + ");\n"
 			+ "\t}\n" 
-			+ "\thandleX: function() {\n\n\t}\n" 
-			+ "\thandleY: function() {\n\n\t}\n" 
-			+ "\thandleZ: function() {\n\n\t}\n" 
+			+ "\thandleX() {\n\n\t}\n" 
+			+ "\thandleY() {\n\n\t}\n" 
+			+ "\thandleZ() {\n\n\t}\n" 
 			
 			+ "}\n";
 			
