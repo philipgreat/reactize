@@ -30,6 +30,8 @@ var reactizeFile = function(filePath){
 var reactizeNode = function(node) {
 
 	// console.log("node: "+node.nodeType+": "+node);
+	
+	
 	if (node.nodeType != 1) {
 		return;
 	}
@@ -40,7 +42,7 @@ var reactizeNode = function(node) {
 	if (!reactComponentName) {
 		return;
 	}
-	exportComponentToFile(reactComponentName,node);
+	return reactComponentName;
 }
 
 var replaceToClassName = function(node) {
@@ -112,7 +114,7 @@ var exportComponentToFile = function(componentName, node) {
 		}
 		console.log("------------------------"+fileName+"------------------------------");
 		console.log(componentCode);
-		console.log("========================"+fileName+"================================");
+		//console.log("========================"+fileName+"================================");
 	});
 }
 
@@ -167,7 +169,8 @@ var getRootDocument = function(node) {
 
 }
 
-var visiteNode = function(node, postCallback, preCallback) {
+var visitNode = function(node, postCallback, preCallback) {
+	var stack=new Array();
 	if (!node) {
 
 		return;
@@ -186,13 +189,20 @@ var visiteNode = function(node, postCallback, preCallback) {
 	}
 	for (var i = 0; i < childNodes.length; i++) {
 		var childNode = childNodes[i];
-		visiteNode(childNode, postCallback, preCallback);
+		visitNode(childNode, postCallback, preCallback);
 	}
 
 	if (postCallback) {
 
 		if (typeof (postCallback) == 'function') {
-			postCallback(node);
+			var reactComponentName=postCallback(node);
+
+			if(reactComponentName){
+				
+				
+				exportComponentToFile(reactComponentName,node);
+				//stack.pop();
+			}
 		}
 	}
 }
@@ -209,7 +219,7 @@ var reactize = function(xmlText) {
 
 	// console.info(s.serializeToString(doc));
 
-	visiteNode(doc, reactizeNode);
+	visitNode(doc, reactizeNode);
 
 }
 
