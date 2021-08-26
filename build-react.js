@@ -164,7 +164,7 @@ console.log('myArgs: ', args);
       element.removeAttribute("class");
       //element.removeAttribute("component-id");
       
-      
+
 
 
       
@@ -182,27 +182,30 @@ console.log('myArgs: ', args);
 
 
 
-  //console.log("style list length==============>",data)
 
-  let html = await page.content();
-  await page.close();
-  await browser.disconnect();
-  
-  let finalContent = html
+
+
+  await page.evaluate(() => {
+
+    let html = document.body.innerHTML
+    let finalContent = html
     //.replace('"\{makestyle\(\{',"makestyle\(\{")
     //.replace("\'\}\)\}\"","\'\}\)\}")
     .replace(/<!--[\s\S]*?-->/g,"")
     //.replace("<!--","{/*")
     //.replace("-->","*/}")
-
-  fs.writeFile('output/'+outputFile, finalContent, err => {
-    if (err) {
-      console.error(err)
-      return
-    }
-    console.log("file write done")
-    //file written successfully
+    fs.writeFile('output/'+outputFile, finalContent, err => {
+      if (err) {
+        console.error(err)
+        return
+      }
+      console.log("file write done")
+      //file written successfully
+    })
   })
+
+
+ 
 
 
 
