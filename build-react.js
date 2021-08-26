@@ -3,10 +3,23 @@ const axios = require('axios');
 let fs = require('fs')
 
 var  args= process.argv.slice(2);
-console.log('myArgs: ', args);
+//console.log('myArgs: ', args);
 
+var xmlserializer = require('xmlserializer');
 //const endPointURL=args[0];
 //webSocketDebuggerUrl: 'ws://localhost:9222/devtools/browser/0b0ed4d7-b815-429b-8df6-6c5975df00d9'
+
+var html2xhtml = function (htmlString) {
+  var parser = require('parse5'),
+      dom = parser.parse(htmlString);
+
+  return xmlserializer.serializeToString(dom);
+};
+const replaceToStyle=(input)=>{
+
+  return input.replace(/\"\*\*s\*\*/g, '{makestyle({elementId:\'').replace(/\*\*e\*\*\"/g,"\'})}")
+}
+
 
 
 
@@ -27,8 +40,6 @@ console.log('myArgs: ', args);
   await page.setViewport({ width: 1800, height: 1000})
   //await page.setDefaultNavigationTimeout(1000000);
   await page.setDefaultNavigationTimeout(0);
-
-
 
   //var pageURL="http://www.cmbchina.com/"
   
@@ -143,8 +154,8 @@ console.log('myArgs: ', args);
       if(componentId===null){
         console.error("Found null for " + element.innerHTML);
       }
-
-      element.setAttribute("style","{makestyle({elementId:'"+componentId+"'})}");
+      //{makestyle({elementId:*****i*****"+componentId+"u*****u})}
+      element.setAttribute("style","**s**"+componentId+"**e**");
       element.removeAttribute("reactcomponent");
       element.removeAttribute("class");
       //element.removeAttribute("component-id");
@@ -201,10 +212,10 @@ console.log('myArgs: ', args);
   await browser.disconnect();
 
 
-  let finalContent = innerHTML
+  let finalContent = replaceToStyle(html2xhtml(innerHTML)).replace(/<!--(.*?)-->/gm, "")
         //.replace('"\{makestyle\(\{',"makestyle\(\{")
         //.replace("\'\}\)\}\"","\'\}\)\}")
-        .replace(/<!--[\s\S]*?-->/g,"")
+        
         //.replace("<!--","{/*")
         //.replace("-->","*/}")
   fs.writeFile('output/'+outputFile, finalContent, err => {
@@ -212,7 +223,7 @@ console.log('myArgs: ', args);
         console.error(err)
         return
       }
-      console.log("file write done")
+      console.log("file "+outputFile+" write done")
       //file written successfully
   })
  
