@@ -84,13 +84,13 @@ console.log('myArgs: ', args);
         if(element.tagName==='SCRIPT'){
             return {};
         }
-        console.log(element.getAttribute("componentid")+"=================================");
+       // console.log(element.getAttribute("componentid")+"=================================");
 
         //for (var i = styleObj.length; i--;) 
         for (var i = 0;i<styleObj.length; i++){
             var nameString = styleObj[i];
             var value = styleObj.getPropertyValue(nameString);
-            console.log("\t"+camelCased(nameString)+": \""+ value+"\";");
+            //console.log("\t"+camelCased(nameString)+": \""+ value+"\";");
 
             styleDefine[camelCased(nameString)] = value;
             //need to notice differ starts with -webkit-
@@ -123,6 +123,9 @@ console.log('myArgs: ', args);
     //file written successfully
   })
 
+
+
+
   const data = await page.evaluate(() => {
     const styleList={};
     const elements = document.body.getElementsByTagName("*");
@@ -140,7 +143,7 @@ console.log('myArgs: ', args);
       //for(var i = attrs.length - 1; i >= 0; i--) 
       for(var i = 0; i< attrs.length ;i++) {
         //output += attrs[i].name + "->" + attrs[i].value;
-        console.log("\t"+attrs[i].name+"="+attrs[i].value)
+        //console.log("\t"+attrs[i].name+"="+attrs[i].value)
         const name = attrs[i].name
         
         if(name==="id" || name==="componentid"|| name==="reactcomponent"){
@@ -161,6 +164,9 @@ console.log('myArgs: ', args);
       element.removeAttribute("class");
       //element.removeAttribute("component-id");
       
+      
+
+
       
     });
 
