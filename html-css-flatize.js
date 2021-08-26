@@ -7,7 +7,7 @@ console.log('myArgs: ', args);
 
 //const endPointURL=args[0];
 //webSocketDebuggerUrl: 'ws://localhost:9222/devtools/browser/0b0ed4d7-b815-429b-8df6-6c5975df00d9'
-let cssDefaultJSONText = fs.readFileSync('ggas/default-css.json');
+let cssDefaultJSONText = fs.readFileSync('output/default-css.json');
 let cssDefaultValues = JSON.parse(cssDefaultJSONText);
 
 
@@ -136,7 +136,7 @@ let cssDefaultValues = JSON.parse(cssDefaultJSONText);
   
   //let finalContent = html.replace("style-back=","style=").replace("id=","oldid=").replace("class=","oldclass=")
 
-  fs.writeFile('ggas/'+outputFile, html, err => {
+  fs.writeFile('output/'+outputFile, html, err => {
     if (err) {
       console.error(err)
       return

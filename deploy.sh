@@ -4,19 +4,19 @@
 function dochange(){
 
 	echo "file change" 
-	cp  ggas/* /opt/resin/webapps/ROOT/ggas/ 
+	cp  output/* /opt/resin/webapps/ROOT/output/ 
 
 }
 
 function monitor(){
 
-	fswatch -o ggas | xargs -n1 -I{}  cp  ggas/* /opt/resin/webapps/ROOT/ggas/&&echo "sync"
+	fswatch -o output | xargs -n1 -I{}  cp  output/* /opt/resin/webapps/ROOT/output/&&echo "sync"
 
 }
 
 function showfile(){
 
-   fswatch -o ggas  --batch-marker=EOF -xn . | while read file event; do 
+   fswatch -o output  --batch-marker=EOF -xn . | while read file event; do 
    echo $file $event
    if [ $file = "EOF" ]; then 
       echo TRIGGER
@@ -28,12 +28,12 @@ function showfile(){
 
 function showchange(){
 
-	echo "find change， will execute cp  ggas/* /opt/resin/webapps/ROOT/ggas/ "
-	cp  ggas/* /opt/resin/webapps/ROOT/ggas/
+	echo "find change， will execute cp  output/* /opt/resin/webapps/ROOT/output/ "
+	cp  output/* /opt/resin/webapps/ROOT/output/
 
 }
 
-#fswatch -o ggas | xargs -n1 -I{}  bash deploy.sh 
+#fswatch -o output | xargs -n1 -I{}  bash deploy.sh 
 
 showchange
 

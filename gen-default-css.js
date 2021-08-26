@@ -26,7 +26,7 @@ console.log('myArgs: ', args);
   //await page.setDefaultNavigationTimeout(1000000);
   await page.setDefaultNavigationTimeout(0);
 
-  var pageURL="http://localhost:8080/ggas/html-tags.html"
+  var pageURL="http://localhost:8080/output/html-tags.html"
   //var pageURL="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout/Multiple-column_Layout";
 
   
@@ -122,7 +122,7 @@ console.log('myArgs: ', args);
   var cssJSON = JSON.stringify(data,null, 4)
 
 
-  fs.writeFile('ggas/default-css.json', cssJSON, err => {
+  fs.writeFile('output/default-css.json', cssJSON, err => {
     if (err) {
       console.error(err)
       return
