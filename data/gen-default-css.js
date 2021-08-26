@@ -7,7 +7,32 @@ console.log('myArgs: ', args);
 
 //const endPointURL=args[0];
 //webSocketDebuggerUrl: 'ws://localhost:9222/devtools/browser/0b0ed4d7-b815-429b-8df6-6c5975df00d9'
+const  dumpCSSMap=({element,parentElement})=>{
+  var s = {};
+  var elementStyle = getComputedStyle(element,false);
 
+
+
+  //console.log("id ", element.getAttribute("id"));
+  var parentElementStyle=getComputedStyle(parentElement,false);
+  for(var i = 0; i < elementStyle.length; i++){
+
+
+    if(parentElement&&parentElementStyle.getPropertyValue&&(elementStyle.getPropertyValue(elementStyle[i]) === parentElementStyle.getPropertyValue(elementStyle[i]))){
+      //continue;
+    }
+    
+    s[elementStyle[i]]=elementStyle.getPropertyValue(elementStyle[i]);
+
+    //s+=elementStyle[i] + ':' + elementStyle.getPropertyValue(elementStyle[i])+';';
+  }
+
+ 
+
+
+
+  return s;
+}
 
 
 (async () => {
@@ -45,68 +70,20 @@ console.log('myArgs: ', args);
 
   page.on('console', consoleObj => console.log(consoleObj.text()));
   
-  const data = await page.evaluate(() => {
-
-    
-
+  await page.evaluate(({dumpCSSMap}) => {
 
     const styleList={};
     const elements = document.body.getElementsByTagName("*");
-   
-    //styleList[document.body.tagName] = dumpCSSMap({element:document.body,parentElement:null});
-
-    
-
     [...elements].map(element => {
-        
 
-
-        const  dumpCSSMap=({element,parentElement})=>{
-            var s = {};
-    
-            var elementStyle = getComputedStyle(element,false);
-    
-    
-    
-            //console.log("id ", element.getAttribute("id"));
-            var parentElementStyle=getComputedStyle(parentElement,false);
-            for(var i = 0; i < elementStyle.length; i++){
-          
-          
-              if(parentElement&&parentElementStyle.getPropertyValue&&(elementStyle.getPropertyValue(elementStyle[i]) === parentElementStyle.getPropertyValue(elementStyle[i]))){
-                //continue;
-              }
-              
-              s[elementStyle[i]]=elementStyle.getPropertyValue(elementStyle[i]);
-    
-              //s+=elementStyle[i] + ':' + elementStyle.getPropertyValue(elementStyle[i])+';';
-            }
-    
-           
-    
-          
-    
-            return s;
-          }
+       
       
         
 
       
 
       var cssMap=dumpCSSMap({element,parentElement:element.parentElement})
-      //element.style=cssExpr
       styleList[element.tagName] = cssMap
-
-      //element.setAttribute("style-back",cssExpr)
-      //element.style.fontSize="150px";
-      //element.removeAttribute("class")
-      //element.removeAttribute("id")
-      //element.style=getComputedStyle(element);
-     
-      //element.removeAttribute("class")
-      //console.log(element,"=>");
-      //cssText
-      return element.tagName
 
       
       //return element+window.getComputedStyle(element).getPropertyValue("font-family");
@@ -116,13 +93,13 @@ console.log('myArgs: ', args);
 
     return styleList;
 
-  });
+  },{dumpCSSMap});
 
 
   var cssJSON = JSON.stringify(data,null, 4)
 
 
-  fs.writeFile('output/default-css.json', cssJSON, err => {
+  fs.writeFile('default-css.json', cssJSON, err => {
     if (err) {
       console.error(err)
       return

@@ -7,8 +7,11 @@ console.log('myArgs: ', args);
 
 //const endPointURL=args[0];
 //webSocketDebuggerUrl: 'ws://localhost:9222/devtools/browser/0b0ed4d7-b815-429b-8df6-6c5975df00d9'
-let cssDefaultJSONText = fs.readFileSync('output/default-css.json');
+let cssDefaultJSONText = fs.readFileSync('data/default-css.json');
 let cssDefaultValues = JSON.parse(cssDefaultJSONText);
+
+
+
 
 
 (async () => {
@@ -29,12 +32,15 @@ let cssDefaultValues = JSON.parse(cssDefaultJSONText);
   //await page.setDefaultNavigationTimeout(1000000);
   await page.setDefaultNavigationTimeout(0);
 
-
+  
 
   //var pageURL="http://www.cmbchina.com/"
   
   //var pageURL="http://www.ccb.com/cn/home/indexv3.html"
   var pageURL="https://www.pmdaniu.com/clouds/133784/62ddde7e8aac61d38a24bcd43d6f1aae-130884/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.html"
+  
+  //var pageURL="http://localhost:8080/ggas/login.html"
+  //var outputFile="login-style.js"
   var outputFile="login.html"
 
 
@@ -53,7 +59,7 @@ let cssDefaultValues = JSON.parse(cssDefaultJSONText);
 
   console.log(data);
   */
-  await page.waitForTimeout(10000);
+  await page.waitForTimeout(2000);
   //await page.screenshot({path: 'home.png'});
 
   page.on('console', consoleObj => console.log(consoleObj.text()));
@@ -62,45 +68,31 @@ let cssDefaultValues = JSON.parse(cssDefaultJSONText);
     const styleList=[];
     const elements = document.body.getElementsByTagName("*");
 
-    console.log("de===>>",cssDefaultValues);
+    
     let counter = 0;
      [...elements].map(element => {
       
       
-      const  dumpCSSText=({element,parentElement})=>{
+
+      const   dumpCSSText=({element})=>{
         var s = '';
 
-        
-
-
         var elementStyle = getComputedStyle(element,false);
-        var parentElementStyle=getComputedStyle(parentElement);
 
         for(var i = 0; i < elementStyle.length; i++){
           
           var key = elementStyle[i];
           var value=elementStyle.getPropertyValue(elementStyle[i]);
-          
-
           if(cssDefaultValues[element.tagName]&&cssDefaultValues[element.tagName][key]===elementStyle.getPropertyValue(key)){
-
-            //console.log("working  on ",element.tagName,"==",cssDefaultValues);
-
             continue;
           }
-
-          if(parentElement&&parentElementStyle.getPropertyValue&&(elementStyle.getPropertyValue(elementStyle[i]) === parentElementStyle.getPropertyValue(elementStyle[i]))){
-            //continue;
-          }
-          
-      
           s+=key+ ':' +value+';';
         }
-
-       
-        
         return s;
       }
+     
+
+      
       var cssExpr=dumpCSSText({element,parentElement:element.parentElement})
       //element.style=cssExpr
       counter++;
