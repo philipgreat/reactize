@@ -10,7 +10,6 @@ console.log('myArgs: ', args);
 
 
 
-
 (async () => {
   //const browser = await puppeteer.launch();
   
@@ -38,7 +37,7 @@ console.log('myArgs: ', args);
   
   var pageURL="http://localhost:8080/ggas/login.html"
   var outputFile="login-style.js"
-
+  
 
 
 
@@ -60,41 +59,137 @@ console.log('myArgs: ', args);
 
   page.on('console', consoleObj => console.log(consoleObj.text()));
   
-  await page.evaluate(({cssDefaultValues}) => {
-    const styleList=[];
+  
+  const styleData=await page.evaluate(() => {
+    const styleList={};
     const elements = document.body.getElementsByTagName("*");
 
     
     let counter = 0;
-     [...elements].map(element => {
+    [...elements].map(element => {
       
+
+      const camelCased =(myString)=>{
+        return myString.replace(/-([a-z])/g, function (g) { return g[1].toUpperCase(); });
+
+
+      } 
+
       const   dumpCSSTextAsObject=({element})=>{
+        const styleDefine={}
+        var styleObj = element.style
+        //console.log(element.style.cssText);
+
+
+        if(element.tagName==='SCRIPT'){
+            return {};
+        }
+        console.log(element.getAttribute("componentid")+"=================================");
+
+        //for (var i = styleObj.length; i--;) 
+        for (var i = 0;i<styleObj.length; i++){
+            var nameString = styleObj[i];
+            var value = styleObj.getPropertyValue(nameString);
+            console.log("\t"+camelCased(nameString)+": \""+ value+"\";");
+
+            styleDefine[camelCased(nameString)] = value;
+            //need to notice differ starts with -webkit-
+
+        }
         
-        console.log(element.style.cssText);
-        return element.style.cssText;
+      
+
+        //console.log(element.style.cssText);
+        return styleDefine;
       }
-      
-      var cssExpr=dumpCSSTextAsObject({element,parentElement:element.parentElement})
 
-      return element.tagName
+      styleList[element.getAttribute("componentid")]=dumpCSSTextAsObject({element})
 
-      
-      //return element+window.getComputedStyle(element).getPropertyValue("font-family");
     });
 
-    console.log("style list length==============>",styleList.length)
-  },{cssDefaultValues});
+    //console.log("style list length==============>",styleList.length)
+
+    return styleList
+
+  });
 
 
-  
+  fs.writeFile('output/login-style.json', JSON.stringify(styleData,null,4), err => {
+    if (err) {
+      console.error(err)
+      return
+    }
+    console.log("file write done")
+    //file written successfully
+  })
+
+  const data = await page.evaluate(() => {
+    const styleList={};
+    const elements = document.body.getElementsByTagName("*");
+
+    
+    let counter = 0;
+    [...elements].map(element => {
+      
+
+      //element.removeAttribute("")
+
+      
+
+      var attrs = element.attributes;
+      //for(var i = attrs.length - 1; i >= 0; i--) 
+      for(var i = 0; i< attrs.length ;i++) {
+        //output += attrs[i].name + "->" + attrs[i].value;
+        console.log("\t"+attrs[i].name+"="+attrs[i].value)
+        const name = attrs[i].name
+        
+        if(name==="id" || name==="componentid"|| name==="reactcomponent"){
+          continue;
+        }
+        element.removeAttribute(name);
+        
+      }
+      // return (<div style={makestyle({elementId:'p20'})}>SampleValue</div>)
+      const componentId=element.getAttribute("componentid")
+
+      if(componentId===null){
+        console.error("Found null for " + element.innerHTML);
+      }
+
+      element.setAttribute("style","{makestyle({elementId:'"+componentId+"'})}");
+      element.removeAttribute("reactcomponent");
+      element.removeAttribute("class");
+      //element.removeAttribute("component-id");
+      
+      
+    });
+
+    //console.log("style list length==============>",styleList.length)
+
+    return styleList
+
+  });
+
+
+
+
+
+
+
+  //console.log("style list length==============>",data)
 
   let html = await page.content();
   await page.close();
   await browser.disconnect();
   
-  //let finalContent = html.replace("style-back=","style=").replace("id=","oldid=").replace("class=","oldclass=")
+  let finalContent = html
+    //.replace('"\{makestyle\(\{',"makestyle\(\{")
+    //.replace("\'\}\)\}\"","\'\}\)\}")
+    .replace(/<!--[\s\S]*?-->/g,"")
+    //.replace("<!--","{/*")
+    //.replace("-->","*/}")
 
-  fs.writeFile('output/'+outputFile, html, err => {
+  fs.writeFile('output/'+outputFile, finalContent, err => {
     if (err) {
       console.error(err)
       return
@@ -104,3 +199,5 @@ console.log('myArgs: ', args);
   })
 
 
+
+})();

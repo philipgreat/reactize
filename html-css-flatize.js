@@ -98,8 +98,8 @@ let cssDefaultValues = JSON.parse(cssDefaultJSONText);
       counter++;
       element.style=cssExpr
       var componentId = element.getAttribute("id") || element.tagName.toLowerCase()+""+counter
-      element.setAttribute("component-id",componentId)
-      element.setAttribute("react-component","")
+      element.setAttribute("componentid",componentId)
+      element.setAttribute("reactcomponent","")
       
       //element.setAttribute("style-back",cssExpr)
       //element.style.fontSize="150px";
@@ -136,7 +136,7 @@ let cssDefaultValues = JSON.parse(cssDefaultJSONText);
     console.log("file write done")
     //file written successfully
   })
-
+  
 
 
   //console.log(html);
