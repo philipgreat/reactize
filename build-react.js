@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 const axios = require('axios');
-const fs = require('fs')
+let fs = require('fs')
 
 var  args= process.argv.slice(2);
 console.log('myArgs: ', args);
@@ -38,31 +38,16 @@ console.log('myArgs: ', args);
   var pageURL="http://localhost:8080/ggas/login.html"
   var outputFile="login-style.js"
   
-
-
-
-  //var pageURL="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout/Multiple-column_Layout";
-
   
   await page.goto(pageURL,{ waitUntil: 'networkidle0'});
-  
-  /*
-
-  await page.goto('https://www.pmdaniu.com/clouds/133784/62ddde7e8aac61d38a24bcd43d6f1aae-130884/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.html',{ waitUntil: 'networkidle0'});
-  
-  const data = await page.evaluate(() => document.querySelector('*').outerHTML);
-
-  console.log(data);
-  */
   await page.waitForTimeout(2000);
-  //await page.screenshot({path: 'home.png'});
 
   page.on('console', consoleObj => console.log(consoleObj.text()));
   
   
   const styleData=await page.evaluate(() => {
-    const styleList={};
-    const elements = document.body.getElementsByTagName("*");
+  const styleList={};
+  const elements = document.body.getElementsByTagName("*");
 
     
     let counter = 0;
@@ -183,28 +168,53 @@ console.log('myArgs: ', args);
 
 
 
+  //https://stackoverflow.com/questions/3558119/are-non-void-self-closing-tags-valid-in-html5
+  /*
+  area, base, br, col, embed, hr, img, input, 
+  keygen, link, meta, param, source, track, wbr
+
+  */
+
+  const innerHTML  = await page.evaluate(() => {
 
 
-  await page.evaluate(() => {
+    const elements = document.body.getElementsByTagName("*");
 
+    
+    let counter = 0;
+    [...elements].map(element => {
+
+      if(element.tagName==='SCRIPT'){
+        element.remove();
+      }
+
+    })
+    
+    
     let html = document.body.innerHTML
-    let finalContent = html
-    //.replace('"\{makestyle\(\{',"makestyle\(\{")
-    //.replace("\'\}\)\}\"","\'\}\)\}")
-    .replace(/<!--[\s\S]*?-->/g,"")
-    //.replace("<!--","{/*")
-    //.replace("-->","*/}")
-    fs.writeFile('output/'+outputFile, finalContent, err => {
+    return html
+    //console.log("html=====>",html)
+    
+  })
+
+  await page.close();
+  await browser.disconnect();
+
+
+  let finalContent = innerHTML
+        //.replace('"\{makestyle\(\{',"makestyle\(\{")
+        //.replace("\'\}\)\}\"","\'\}\)\}")
+        .replace(/<!--[\s\S]*?-->/g,"")
+        //.replace("<!--","{/*")
+        //.replace("-->","*/}")
+  fs.writeFile('output/'+outputFile, finalContent, err => {
       if (err) {
         console.error(err)
         return
       }
       console.log("file write done")
       //file written successfully
-    })
   })
-
-
  
 
 
