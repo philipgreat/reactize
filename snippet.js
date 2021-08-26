@@ -36,7 +36,7 @@ const replaceToStyle=(input)=>{
     const browser = await puppeteer.connect({ browserWSEndpoint: url });	
     const page = await browser.newPage();
     //await page.setViewport({ width: 1440, height: 900})
-    await page.setViewport({ width: 1200, height: 800})
+    await page.setViewport({ width: 1800, height: 1000})
     //await page.setDefaultNavigationTimeout(1000000);
     await page.setDefaultNavigationTimeout(0);
   
@@ -84,11 +84,6 @@ const replaceToStyle=(input)=>{
           //for (var i = styleObj.length; i--;) 
           for (var i = 0;i<styleObj.length; i++){
               var nameString = styleObj[i];
-
-              if(nameString.startsWith("-webkit")){
-                continue;
-              }
-
               var value = styleObj.getPropertyValue(nameString);
               //console.log("\t"+camelCased(nameString)+": \""+ value+"\";");
   

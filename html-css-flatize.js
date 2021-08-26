@@ -28,7 +28,7 @@ let cssDefaultValues = JSON.parse(cssDefaultJSONText);
   const browser = await puppeteer.connect({ browserWSEndpoint: url });	
   const page = await browser.newPage();
   //await page.setViewport({ width: 1440, height: 900})
-  await page.setViewport({ width: 1800, height: 1000})
+  await page.setViewport({ width: 1080, height: 720})
   //await page.setDefaultNavigationTimeout(1000000);
   await page.setDefaultNavigationTimeout(0);
 
@@ -37,11 +37,12 @@ let cssDefaultValues = JSON.parse(cssDefaultJSONText);
   //var pageURL="http://www.cmbchina.com/"
   
   //var pageURL="http://www.ccb.com/cn/home/indexv3.html"
-  var pageURL="https://www.pmdaniu.com/clouds/133784/62ddde7e8aac61d38a24bcd43d6f1aae-130884/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.html"
+  var pageURL="https://www.gov.cn/"
+  //var pageURL="https://www.pmdaniu.com/clouds/133784/62ddde7e8aac61d38a24bcd43d6f1aae-130884/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.html"
   
   //var pageURL="http://localhost:8080/ggas/login.html"
   //var outputFile="login-style.js"
-  var outputFile="login.html"
+  var outputFile="gov.html"
 
 
 

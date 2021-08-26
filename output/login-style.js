@@ -132,7 +132,7 @@
             <div id="u17" data-label="登录按纽" componentid="u17" style={makestyle({elementId:'u17'})}>
               <div id="u17_div" tabindex="0" componentid="u17_div" style={makestyle({elementId:'u17_div'})}/>
               <div id="u17_text" componentid="u17_text" style={makestyle({elementId:'u17_text'})}>
-                <p componentid="p73" id="cache0" style={makestyle({elementId:'p73'})}><span componentid="span74" id="cache1" style={makestyle({elementId:'span74'})}>登录</span></p>
+                <p componentid="p73" style={makestyle({elementId:'p73'})}><span componentid="span74" style={makestyle({elementId:'span74'})}>登录</span></p>
               </div>
             </div>
 
@@ -191,7 +191,7 @@
               <div id="u24" data-label="边框" componentid="u24" style={makestyle({elementId:'u24'})}>
                 <img id="u24_img" src="images/登录界面/边框_u24.svg" componentid="u24_img" style={makestyle({elementId:'u24_img'})}/>
                 <div id="u24_text" style={makestyle({elementId:'u24_text'})} componentid="u24_text">
-                  <p componentid="p109" id="cache3" style={makestyle({elementId:'p109'})}/>
+                  <p componentid="p109" style={makestyle({elementId:'p109'})}/>
                 </div>
               </div>
 
@@ -225,7 +225,7 @@
               <div id="u29" data-label="边框" componentid="u29" style={makestyle({elementId:'u29'})}>
                 <img id="u29_img" src="images/登录界面/边框_u29.svg" componentid="u29_img" style={makestyle({elementId:'u29_img'})}/>
                 <div id="u29_text" style={makestyle({elementId:'u29_text'})} componentid="u29_text">
-                  <p componentid="p127" id="cache2" style={makestyle({elementId:'p127'})}/>
+                  <p componentid="p127" style={makestyle({elementId:'p127'})}/>
                 </div>
               </div>
 

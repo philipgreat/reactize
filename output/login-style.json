@@ -51,11 +51,8 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "900px 350px",
-        "width": "1800px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
-        "left": "-250px"
+        "width": "1300px",
+        "left": "0px"
     },
     "u0_state0": {
         "backgroundColor": "rgb(204, 204, 204)",
@@ -94,10 +91,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "900px 350px",
-        "width": "1800px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1300px"
     },
     "u0_state0_content": {
         "blockSize": "1px",
@@ -125,7 +119,7 @@
         "insetInlineStart": "0px",
         "insetInlineEnd": "1549px",
         "marginInlineStart": "250px",
-        "marginLeft": "0px",
+        "marginLeft": "-250px",
         "outlineColor": "rgb(102, 102, 102)",
         "perspectiveOrigin": "0.5px 0.5px",
         "position": "absolute",
@@ -135,10 +129,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "0.5px 0.5px",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u2": {
         "blockSize": "60px",
@@ -173,11 +164,8 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "900px 30px",
-        "width": "1800px",
+        "width": "1200px",
         "zIndex": "1001",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
         "left": "0px"
     },
     "u2_state0": {
@@ -214,10 +202,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "900px 30px",
-        "width": "1800px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1200px"
     },
     "u2_state0_content": {
         "blockSize": "1px",
@@ -254,9 +239,6 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "0.5px 0.5px",
         "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
         "marginLeft": "0px"
     },
     "u3": {
@@ -292,10 +274,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "900px 5px",
-        "width": "1800px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
+        "width": "1200px",
         "left": "0px"
     },
     "u3_state0": {
@@ -341,10 +320,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "900px 5px",
-        "width": "1800px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1200px"
     },
     "u3_state0_content": {
         "blockSize": "1px",
@@ -381,9 +357,6 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "0.5px 0.5px",
         "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
         "marginLeft": "0px"
     },
     "u4": {
@@ -419,10 +392,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "900px 25px",
-        "width": "1800px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
+        "width": "1200px",
         "left": "0px"
     },
     "u4_state0": {
@@ -462,10 +432,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "900px 25px",
-        "width": "1800px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1200px"
     },
     "u4_state0_content": {
         "blockSize": "1px",
@@ -502,9 +469,6 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "0.5px 0.5px",
         "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
         "marginLeft": "0px"
     },
     "u5": {
@@ -540,10 +504,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "160px 25px",
         "width": "320px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
-        "left": "1960px",
+        "left": "1360px",
         "top": "0px"
     },
     "u5_state0": {
@@ -580,10 +541,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "160px 25px",
-        "width": "320px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "320px"
     },
     "u5_state0_content": {
         "blockSize": "1px",
@@ -619,10 +577,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "0.5px 0.5px",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u6": {
         "blockSize": "50px",
@@ -659,10 +614,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "40px 25px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "u6_div": {
         "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -699,10 +651,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "40px 25px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "u6_text": {
         "alignSelf": "center",
@@ -741,10 +690,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "40px 8.5px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "p20": {
         "blockSize": "17px",
@@ -778,10 +724,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "40px 8.5px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "span21": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -805,10 +748,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u7": {
         "blockSize": "50px",
@@ -845,10 +785,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "40px 25px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "u7_div": {
         "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -885,10 +822,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "40px 25px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "u7_text": {
         "alignSelf": "center",
@@ -927,10 +861,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "40px 8.5px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "p25": {
         "blockSize": "17px",
@@ -964,10 +895,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "40px 8.5px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "span26": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -991,10 +919,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u8": {
         "blockSize": "50px",
@@ -1031,10 +956,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "40px 25px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "u8_div": {
         "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1071,10 +993,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "40px 25px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "u8_text": {
         "alignSelf": "center",
@@ -1113,10 +1032,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "40px 8.5px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "p30": {
         "blockSize": "17px",
@@ -1150,10 +1066,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "40px 8.5px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "span31": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -1177,10 +1090,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u9": {
         "blockSize": "50px",
@@ -1217,10 +1127,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "40px 25px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "u9_div": {
         "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1257,10 +1164,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "40px 25px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "u9_text": {
         "alignSelf": "center",
@@ -1299,10 +1203,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "40px 8.5px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "p35": {
         "blockSize": "17px",
@@ -1336,10 +1237,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "40px 8.5px",
-        "width": "80px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "80px"
     },
     "span36": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -1363,10 +1261,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u10": {
         "blockSize": "42px",
@@ -1403,10 +1298,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "37.5px 21px",
-        "width": "75px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "75px"
     },
     "u10_img": {
         "blockSize": "42px",
@@ -1443,10 +1335,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "37.5px 21px",
-        "width": "75px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "75px"
     },
     "u10_text": {
         "alignSelf": "center",
@@ -1487,10 +1376,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p40": {
         "blockSize": "auto",
@@ -1525,10 +1411,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "u11": {
         "blockSize": "32px",
@@ -1565,10 +1448,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "168px 16px",
-        "width": "336px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "336px"
     },
     "u11_div": {
         "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1605,10 +1485,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "168px 16px",
-        "width": "336px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "336px"
     },
     "u11_text": {
         "alignSelf": "flex-start",
@@ -1647,10 +1524,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "168px 20px",
         "whiteSpace": "nowrap",
-        "width": "336px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "336px"
     },
     "p44": {
         "blockSize": "40px",
@@ -1684,10 +1558,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "168px 20px",
         "whiteSpace": "nowrap",
-        "width": "336px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "336px"
     },
     "span45": {
         "borderBlockStartColor": "rgb(102, 102, 102)",
@@ -1711,10 +1582,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "textRendering": "optimizelegibility",
-        "whiteSpace": "nowrap",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "whiteSpace": "nowrap"
     },
     "u1": {
         "blockSize": "auto",
@@ -1762,10 +1630,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
         "transformOrigin": "100px 100px",
-        "width": "200px",
-        "WebkitTextEmphasisColor": "rgb(255, 255, 255)",
-        "WebkitTextFillColor": "rgb(255, 255, 255)",
-        "WebkitTextStrokeColor": "rgb(255, 255, 255)"
+        "width": "200px"
     },
     "u12_img": {
         "blockSize": "200px",
@@ -1802,10 +1667,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
         "transformOrigin": "100px 100px",
-        "width": "200px",
-        "WebkitTextEmphasisColor": "rgb(255, 255, 255)",
-        "WebkitTextFillColor": "rgb(255, 255, 255)",
-        "WebkitTextStrokeColor": "rgb(255, 255, 255)"
+        "width": "200px"
     },
     "u12_text": {
         "alignSelf": "center",
@@ -1852,10 +1714,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
         "transformOrigin": "100px 82px",
-        "width": "200px",
-        "WebkitTextEmphasisColor": "rgb(255, 255, 255)",
-        "WebkitTextFillColor": "rgb(255, 255, 255)",
-        "WebkitTextStrokeColor": "rgb(255, 255, 255)"
+        "width": "200px"
     },
     "p50": {
         "blockSize": "160px",
@@ -1889,10 +1748,7 @@
         "textDecorationColor": "rgb(255, 255, 255)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "98px 80px",
-        "width": "196px",
-        "WebkitTextEmphasisColor": "rgb(255, 255, 255)",
-        "WebkitTextFillColor": "rgb(255, 255, 255)",
-        "WebkitTextStrokeColor": "rgb(255, 255, 255)"
+        "width": "196px"
     },
     "span51": {
         "borderBlockStartColor": "rgb(255, 255, 255)",
@@ -1916,10 +1772,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(255, 255, 255)",
-        "WebkitTextFillColor": "rgb(255, 255, 255)",
-        "WebkitTextStrokeColor": "rgb(255, 255, 255)"
+        "textRendering": "optimizelegibility"
     },
     "u13": {
         "blockSize": "700px",
@@ -1956,10 +1809,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "650px 350px",
-        "width": "1300px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1300px"
     },
     "u13_img": {
         "blockSize": "700px",
@@ -1996,10 +1846,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "650px 350px",
-        "width": "1300px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1300px"
     },
     "u13_text": {
         "alignSelf": "center",
@@ -2040,10 +1887,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p55": {
         "blockSize": "auto",
@@ -2078,10 +1922,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "u14": {
         "blockSize": "100px",
@@ -2119,10 +1960,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
         "transformOrigin": "259px 50px",
-        "width": "518px",
-        "WebkitTextEmphasisColor": "rgb(255, 255, 255)",
-        "WebkitTextFillColor": "rgb(255, 255, 255)",
-        "WebkitTextStrokeColor": "rgb(255, 255, 255)"
+        "width": "518px"
     },
     "u14_div": {
         "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -2160,10 +1998,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
         "transformOrigin": "259px 50px",
-        "width": "518px",
-        "WebkitTextEmphasisColor": "rgb(255, 255, 255)",
-        "WebkitTextFillColor": "rgb(255, 255, 255)",
-        "WebkitTextStrokeColor": "rgb(255, 255, 255)"
+        "width": "518px"
     },
     "u14_text": {
         "alignSelf": "center",
@@ -2203,10 +2038,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
         "transformOrigin": "259px 48px",
-        "width": "518px",
-        "WebkitTextEmphasisColor": "rgb(255, 255, 255)",
-        "WebkitTextFillColor": "rgb(255, 255, 255)",
-        "WebkitTextStrokeColor": "rgb(255, 255, 255)"
+        "width": "518px"
     },
     "p59": {
         "blockSize": "48px",
@@ -2241,10 +2073,7 @@
         "textDecorationColor": "rgb(255, 255, 255)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "259px 24px",
-        "width": "518px",
-        "WebkitTextEmphasisColor": "rgb(255, 255, 255)",
-        "WebkitTextFillColor": "rgb(255, 255, 255)",
-        "WebkitTextStrokeColor": "rgb(255, 255, 255)"
+        "width": "518px"
     },
     "span60": {
         "borderBlockStartColor": "rgb(255, 255, 255)",
@@ -2270,10 +2099,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(255, 255, 255)",
-        "WebkitTextFillColor": "rgb(255, 255, 255)",
-        "WebkitTextStrokeColor": "rgb(255, 255, 255)"
+        "textRendering": "optimizelegibility"
     },
     "p61": {
         "blockSize": "48px",
@@ -2308,10 +2134,7 @@
         "textDecorationColor": "rgb(255, 255, 255)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "259px 24px",
-        "width": "518px",
-        "WebkitTextEmphasisColor": "rgb(255, 255, 255)",
-        "WebkitTextFillColor": "rgb(255, 255, 255)",
-        "WebkitTextStrokeColor": "rgb(255, 255, 255)"
+        "width": "518px"
     },
     "span62": {
         "borderBlockStartColor": "rgb(255, 255, 255)",
@@ -2336,10 +2159,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(255, 255, 255)",
-        "WebkitTextFillColor": "rgb(255, 255, 255)",
-        "WebkitTextStrokeColor": "rgb(255, 255, 255)"
+        "textRendering": "optimizelegibility"
     },
     "u15": {
         "blockSize": "390px",
@@ -2375,10 +2195,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "205px 195px",
-        "width": "410px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "410px"
     },
     "u15_state0": {
         "blockSize": "390px",
@@ -2414,10 +2231,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "205px 195px",
-        "width": "410px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "410px"
     },
     "u15_state0_content": {
         "blockSize": "1px",
@@ -2453,10 +2267,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "0.5px 0.5px",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u16": {
         "blockSize": "390px",
@@ -2494,10 +2305,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "205px 195px",
-        "width": "410px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "410px"
     },
     "u16_div": {
         "backgroundColor": "rgb(255, 255, 255)",
@@ -2536,10 +2344,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "205px 195px",
-        "width": "410px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "410px"
     },
     "u16_text": {
         "alignSelf": "flex-start",
@@ -2579,10 +2384,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p69": {
         "blockSize": "auto",
@@ -2618,10 +2420,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "u17": {
         "blockSize": "45px",
@@ -2658,10 +2457,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
         "transformOrigin": "175px 22.5px",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u17_div": {
         "backgroundColor": "rgb(0, 193, 222)",
@@ -2699,10 +2495,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
         "transformOrigin": "175px 22.5px",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u17_text": {
         "alignSelf": "center",
@@ -2749,10 +2542,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
         "transformOrigin": "175px 13px",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "p73": {
         "blockSize": "22px",
@@ -2786,10 +2576,7 @@
         "textDecorationColor": "rgb(255, 255, 255)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "173px 11px",
-        "width": "346px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "346px"
     },
     "span74": {
         "borderBlockStartColor": "rgb(255, 255, 255)",
@@ -2813,10 +2600,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(255, 255, 255)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u18": {
         "blockSize": "30px",
@@ -2850,10 +2634,7 @@
         "top": "310px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u18_state0": {
         "blockSize": "30px",
@@ -2888,10 +2669,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u18_state0_content": {
         "blockSize": "1px",
@@ -2924,10 +2702,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u19": {
         "blockSize": "30px",
@@ -2960,10 +2735,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u19_div": {
         "backgroundColor": "rgb(254, 252, 238)",
@@ -3014,10 +2786,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u19_text": {
         "alignSelf": "center",
@@ -3053,10 +2822,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p81": {
         "blockSize": "auto",
@@ -3091,10 +2857,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span82": {
         "borderBlockStartColor": "rgb(255, 147, 76)",
@@ -3122,10 +2885,7 @@
         "textDecorationColor": "rgb(255, 147, 76)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "span83": {
         "borderBlockStartColor": "rgb(51, 51, 51)",
@@ -3152,10 +2912,7 @@
         "textDecorationColor": "rgb(51, 51, 51)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u18_state1": {
         "blockSize": "30px",
@@ -3191,10 +2948,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u18_state1_content": {
         "blockSize": "1px",
@@ -3227,10 +2981,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u20": {
         "blockSize": "30px",
@@ -3263,10 +3014,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u20_div": {
         "backgroundColor": "rgb(254, 252, 238)",
@@ -3317,10 +3065,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u20_text": {
         "alignSelf": "center",
@@ -3356,10 +3101,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p89": {
         "blockSize": "auto",
@@ -3394,10 +3136,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span90": {
         "borderBlockStartColor": "rgb(255, 147, 76)",
@@ -3425,10 +3164,7 @@
         "textDecorationColor": "rgb(255, 147, 76)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "span91": {
         "borderBlockStartColor": "rgb(51, 51, 51)",
@@ -3455,10 +3191,7 @@
         "textDecorationColor": "rgb(51, 51, 51)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u18_state2": {
         "blockSize": "30px",
@@ -3494,10 +3227,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u18_state2_content": {
         "blockSize": "1px",
@@ -3530,10 +3260,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u21": {
         "blockSize": "30px",
@@ -3566,10 +3293,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u21_div": {
         "backgroundColor": "rgb(254, 252, 238)",
@@ -3620,10 +3344,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u21_text": {
         "alignSelf": "center",
@@ -3659,10 +3380,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p97": {
         "blockSize": "auto",
@@ -3697,10 +3415,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span98": {
         "borderBlockStartColor": "rgb(255, 147, 76)",
@@ -3728,10 +3443,7 @@
         "textDecorationColor": "rgb(255, 147, 76)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "span99": {
         "borderBlockStartColor": "rgb(51, 51, 51)",
@@ -3758,10 +3470,7 @@
         "textDecorationColor": "rgb(51, 51, 51)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u22": {
         "blockSize": "30px",
@@ -3797,10 +3506,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "100px 15px",
-        "width": "200px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "200px"
     },
     "u22_img": {
         "blockSize": "30px",
@@ -3836,10 +3542,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "100px 15px",
-        "width": "200px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "200px"
     },
     "u22_text": {
         "alignSelf": "center",
@@ -3885,10 +3588,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "100px 13px",
-        "width": "200px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "200px"
     },
     "p103": {
         "blockSize": "22px",
@@ -3921,10 +3621,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "98px 11px",
-        "width": "196px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "196px"
     },
     "span104": {
         "borderBlockStartColor": "rgb(102, 102, 102)",
@@ -3947,10 +3644,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u23": {
         "blockSize": "0px",
@@ -3986,10 +3680,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "0px 0px",
-        "width": "0px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "0px"
     },
     "u24": {
         "blockSize": "45px",
@@ -4026,10 +3717,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgba(0, 0, 0, 0)",
         "transformOrigin": "174.5px 22.5px",
-        "width": "349px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "349px"
     },
     "u24_img": {
         "blockSize": "45px",
@@ -4066,10 +3754,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgba(0, 0, 0, 0)",
         "transformOrigin": "174.5px 22.5px",
-        "width": "349px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "349px"
     },
     "u24_text": {
         "alignSelf": "center",
@@ -4110,10 +3795,7 @@
         "textDecorationColor": "rgba(0, 0, 0, 0)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p109": {
         "blockSize": "auto",
@@ -4148,10 +3830,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "u25": {
         "blockSize": "45px",
@@ -4188,10 +3867,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "134.5px 22.5px",
-        "width": "269px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "269px"
     },
     "u25_div": {
         "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -4228,10 +3904,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "134.5px 22.5px",
-        "width": "269px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "269px"
     },
     "u25_input": {
         "height": "45px",
@@ -4272,10 +3945,7 @@
         "top": "101px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u26_div": {
         "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -4319,10 +3989,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u26_text": {
         "alignSelf": "center",
@@ -4364,10 +4031,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p116": {
         "blockSize": "auto",
@@ -4404,10 +4068,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span117": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -4436,10 +4097,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u27": {
         "blockSize": "45px",
@@ -4477,10 +4135,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
         "transformOrigin": "20px 22.5px",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u27_div": {
         "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -4526,10 +4181,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
         "transformOrigin": "20px 22.5px",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u27_text": {
         "alignSelf": "center",
@@ -4577,10 +4229,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
         "transformOrigin": "20px 12.5px",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "p121": {
         "blockSize": "21px",
@@ -4615,10 +4264,7 @@
         "textDecorationColor": "rgb(204, 204, 204)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "18px 10.5px",
-        "width": "36px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "36px"
     },
     "span122": {
         "borderBlockStartColor": "rgb(204, 204, 204)",
@@ -4643,10 +4289,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u28": {
         "blockSize": "0px",
@@ -4682,10 +4325,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "0px 0px",
-        "width": "0px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "0px"
     },
     "u29": {
         "blockSize": "45px",
@@ -4722,10 +4362,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgba(0, 0, 0, 0)",
         "transformOrigin": "175px 22.5px",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u29_img": {
         "blockSize": "45px",
@@ -4762,10 +4399,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgba(0, 0, 0, 0)",
         "transformOrigin": "175px 22.5px",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u29_text": {
         "alignSelf": "center",
@@ -4806,10 +4440,7 @@
         "textDecorationColor": "rgba(0, 0, 0, 0)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p127": {
         "blockSize": "auto",
@@ -4844,10 +4475,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "u30": {
         "blockSize": "45px",
@@ -4884,10 +4512,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "135px 22.5px",
-        "width": "270px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "270px"
     },
     "u30_div": {
         "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -4924,10 +4549,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "135px 22.5px",
-        "width": "270px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "270px"
     },
     "u30_input": {
         "height": "45px",
@@ -4968,10 +4590,7 @@
         "top": "166px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u31_div": {
         "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -5015,10 +4634,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u31_text": {
         "alignSelf": "center",
@@ -5060,10 +4676,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p134": {
         "blockSize": "auto",
@@ -5100,10 +4713,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span135": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -5132,10 +4742,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u32": {
         "blockSize": "45px",
@@ -5173,10 +4780,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
         "transformOrigin": "20px 22.5px",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u32_div": {
         "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -5222,10 +4826,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
         "transformOrigin": "20px 22.5px",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u32_text": {
         "alignSelf": "center",
@@ -5273,10 +4874,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
         "transformOrigin": "20px 12.5px",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "p139": {
         "blockSize": "21px",
@@ -5311,10 +4909,7 @@
         "textDecorationColor": "rgb(204, 204, 204)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "18px 10.5px",
-        "width": "36px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "36px"
     },
     "span140": {
         "borderBlockStartColor": "rgb(204, 204, 204)",
@@ -5339,10 +4934,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u33": {
         "blockSize": "30px",
@@ -5379,10 +4971,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "175px 15px",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u33_img": {
         "blockSize": "30px",
@@ -5419,10 +5008,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "175px 15px",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u33_text": {
         "alignSelf": "center",
@@ -5469,10 +5055,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "175px 10.5px",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "p144": {
         "blockSize": "17px",
@@ -5506,10 +5089,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "173px 8.5px",
-        "width": "346px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "346px"
     },
     "u34": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -5534,10 +5114,6 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
-        "WebkitTextDecorationsInEffect": "none",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
         "cursor": "pointer"
     },
     "span146": {
@@ -5562,10 +5138,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "span147": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -5589,10 +5162,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u35": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -5617,10 +5187,6 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
-        "WebkitTextDecorationsInEffect": "none",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
         "cursor": "pointer"
     },
     "span149": {
@@ -5645,10 +5211,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "span150": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -5672,10 +5235,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u36": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -5700,10 +5260,6 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
-        "WebkitTextDecorationsInEffect": "none",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
         "cursor": "pointer"
     },
     "span152": {
@@ -5728,10 +5284,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u37": {
         "blockSize": "20px",
@@ -5768,10 +5321,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(0, 193, 222)",
         "transformOrigin": "35.5px 10px",
-        "width": "71px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "71px"
     },
     "u37_img": {
         "blockSize": "20px",
@@ -5808,10 +5358,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(0, 193, 222)",
         "transformOrigin": "35.5px 10px",
-        "width": "71px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "71px"
     },
     "u37_text": {
         "alignSelf": "center",
@@ -5858,10 +5405,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(0, 193, 222)",
         "transformOrigin": "35.5px 10.5px",
-        "width": "71px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "71px"
     },
     "p156": {
         "blockSize": "17px",
@@ -5895,10 +5439,7 @@
         "textDecorationColor": "rgb(0, 193, 222)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "29.5px 8.5px",
-        "width": "59px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "59px"
     },
     "span157": {
         "borderBlockStartColor": "rgb(0, 193, 222)",
@@ -5922,10 +5463,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(0, 193, 222)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u38": {
         "blockSize": "0px",
@@ -5961,10 +5499,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "0px 0px",
-        "width": "0px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "0px"
     },
     "u39": {
         "blockSize": "40px",
@@ -6001,10 +5536,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "20px 20px",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u39_img": {
         "blockSize": "40px",
@@ -6041,10 +5573,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "20px 20px",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u39_text": {
         "alignSelf": "center",
@@ -6091,10 +5620,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "20px 22.5px",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "p162": {
         "blockSize": "41px",
@@ -6128,10 +5654,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "18px 20.5px",
-        "width": "36px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "36px"
     },
     "span163": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -6155,10 +5678,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u40": {
         "blockSize": "40px",
@@ -6197,10 +5717,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "20px 20px",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u40_img": {
         "blockSize": "40px",
@@ -6239,10 +5756,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "20px 20px",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u40_text": {
         "alignSelf": "center",
@@ -6285,10 +5799,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p167": {
         "blockSize": "auto",
@@ -6325,10 +5836,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "u15_state1": {
         "blockSize": "390px",
@@ -6362,10 +5870,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "410px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "410px"
     },
     "u15_state1_content": {
         "blockSize": "1px",
@@ -6398,10 +5903,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u41": {
         "blockSize": "390px",
@@ -6435,10 +5937,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "410px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "410px"
     },
     "u41_div": {
         "backgroundColor": "rgb(255, 255, 255)",
@@ -6474,10 +5973,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "410px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "410px"
     },
     "u41_text": {
         "alignSelf": "flex-start",
@@ -6517,10 +6013,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p173": {
         "blockSize": "auto",
@@ -6556,10 +6049,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "u42": {
         "blockSize": "30px",
@@ -6591,10 +6081,7 @@
         "top": "20px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "200px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "200px"
     },
     "u42_img": {
         "blockSize": "30px",
@@ -6627,10 +6114,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "200px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "200px"
     },
     "u42_text": {
         "alignSelf": "center",
@@ -6669,10 +6153,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p177": {
         "blockSize": "auto",
@@ -6706,10 +6187,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span178": {
         "borderBlockStartColor": "rgb(102, 102, 102)",
@@ -6735,10 +6213,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u43": {
         "blockSize": "20px",
@@ -6771,10 +6246,7 @@
         "top": "25px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "71px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "71px"
     },
     "u43_img": {
         "blockSize": "20px",
@@ -6808,10 +6280,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "71px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "71px"
     },
     "u43_text": {
         "alignSelf": "center",
@@ -6851,10 +6320,7 @@
         "textDecorationColor": "rgb(0, 193, 222)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p182": {
         "blockSize": "auto",
@@ -6889,10 +6355,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span183": {
         "borderBlockStartColor": "rgb(0, 193, 222)",
@@ -6919,10 +6382,7 @@
         "textDecorationColor": "rgb(0, 193, 222)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u44": {
         "blockSize": "0px",
@@ -6955,10 +6415,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "0px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "0px"
     },
     "u45": {
         "blockSize": "40px",
@@ -6991,10 +6448,7 @@
         "top": "20px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u45_img": {
         "blockSize": "40px",
@@ -7028,10 +6482,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u45_text": {
         "alignSelf": "center",
@@ -7071,10 +6522,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p188": {
         "blockSize": "auto",
@@ -7109,10 +6557,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span189": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -7139,10 +6584,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u46": {
         "blockSize": "40px",
@@ -7177,10 +6619,7 @@
         "top": "20px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u46_img": {
         "blockSize": "40px",
@@ -7216,10 +6655,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "40px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "40px"
     },
     "u46_text": {
         "alignSelf": "center",
@@ -7262,10 +6698,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p193": {
         "blockSize": "auto",
@@ -7302,10 +6735,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "u47": {
         "blockSize": "0px",
@@ -7338,10 +6768,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "0px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "0px"
     },
     "u48": {
         "blockSize": "0px",
@@ -7374,10 +6801,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "0px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "0px"
     },
     "u49": {
         "blockSize": "43px",
@@ -7395,10 +6819,7 @@
         "top": "95px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "307px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "307px"
     },
     "u49_div": {
         "backgroundColor": "rgb(255, 255, 255)",
@@ -7417,10 +6838,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "307px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "307px"
     },
     "u49_input": {
         "height": "43px",
@@ -7458,10 +6876,7 @@
         "top": "137px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "307px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "307px"
     },
     "u50_img": {
         "blockSize": "2px",
@@ -7495,10 +6910,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "308px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "308px"
     },
     "u50_text": {
         "alignSelf": "center",
@@ -7539,10 +6951,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p202": {
         "blockSize": "auto",
@@ -7577,10 +6986,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "u51": {
         "blockSize": "0px",
@@ -7613,10 +7019,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "0px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "0px"
     },
     "u52": {
         "blockSize": "43px",
@@ -7634,10 +7037,7 @@
         "top": "169px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "178px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "178px"
     },
     "u52_div": {
         "backgroundColor": "rgb(255, 255, 255)",
@@ -7656,10 +7056,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "178px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "178px"
     },
     "u52_input": {
         "height": "43px",
@@ -7697,10 +7094,7 @@
         "top": "211px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "178px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "178px"
     },
     "u53_img": {
         "blockSize": "2px",
@@ -7734,10 +7128,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "179px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "179px"
     },
     "u53_text": {
         "alignSelf": "center",
@@ -7778,10 +7169,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p210": {
         "blockSize": "auto",
@@ -7816,10 +7204,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "u54": {
         "blockSize": "40px",
@@ -7853,10 +7238,7 @@
         "top": "172px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "123px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "123px"
     },
     "u54_div": {
         "backgroundColor": "rgb(22, 155, 213)",
@@ -7899,10 +7281,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "123px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "123px"
     },
     "u54_text": {
         "alignSelf": "center",
@@ -7943,10 +7322,7 @@
         "textDecorationColor": "rgb(255, 255, 255)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p214": {
         "blockSize": "auto",
@@ -7982,10 +7358,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span215": {
         "borderBlockStartColor": "rgb(255, 255, 255)",
@@ -8013,10 +7386,7 @@
         "textDecorationColor": "rgb(255, 255, 255)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u55": {
         "blockSize": "16px",
@@ -8049,10 +7419,7 @@
         "top": "143px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "229px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "229px"
     },
     "u55_state0": {
         "blockSize": "16px",
@@ -8087,10 +7454,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "229px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "229px"
     },
     "u55_state0_content": {
         "blockSize": "1px",
@@ -8123,10 +7487,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u55_state1": {
         "blockSize": "16px",
@@ -8162,10 +7523,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "229px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "229px"
     },
     "u55_state1_content": {
         "blockSize": "1px",
@@ -8198,10 +7556,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u56": {
         "blockSize": "45px",
@@ -8234,10 +7589,7 @@
         "top": "246px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u56_div": {
         "backgroundColor": "rgb(0, 193, 222)",
@@ -8272,10 +7624,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u56_text": {
         "alignSelf": "center",
@@ -8315,10 +7664,7 @@
         "textDecorationColor": "rgb(255, 255, 255)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p224": {
         "blockSize": "auto",
@@ -8353,10 +7699,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span225": {
         "borderBlockStartColor": "rgb(255, 255, 255)",
@@ -8383,10 +7726,7 @@
         "textDecorationColor": "rgb(255, 255, 255)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u57": {
         "blockSize": "30px",
@@ -8420,10 +7760,7 @@
         "top": "306px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u57_state0": {
         "blockSize": "30px",
@@ -8458,10 +7795,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u57_state0_content": {
         "blockSize": "1px",
@@ -8494,10 +7828,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u58": {
         "blockSize": "30px",
@@ -8530,10 +7861,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u58_div": {
         "backgroundColor": "rgb(254, 252, 238)",
@@ -8584,10 +7912,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u58_text": {
         "alignSelf": "center",
@@ -8623,10 +7948,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p232": {
         "blockSize": "auto",
@@ -8661,10 +7983,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span233": {
         "borderBlockStartColor": "rgb(255, 147, 76)",
@@ -8692,10 +8011,7 @@
         "textDecorationColor": "rgb(255, 147, 76)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "span234": {
         "borderBlockStartColor": "rgb(51, 51, 51)",
@@ -8722,10 +8038,7 @@
         "textDecorationColor": "rgb(51, 51, 51)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u57_state1": {
         "blockSize": "30px",
@@ -8761,10 +8074,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u57_state1_content": {
         "blockSize": "1px",
@@ -8797,10 +8107,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u59": {
         "blockSize": "30px",
@@ -8833,10 +8140,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u59_div": {
         "backgroundColor": "rgb(254, 252, 238)",
@@ -8887,10 +8191,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u59_text": {
         "alignSelf": "center",
@@ -8926,10 +8227,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p240": {
         "blockSize": "auto",
@@ -8964,10 +8262,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span241": {
         "borderBlockStartColor": "rgb(255, 147, 76)",
@@ -8995,10 +8290,7 @@
         "textDecorationColor": "rgb(255, 147, 76)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "span242": {
         "borderBlockStartColor": "rgb(51, 51, 51)",
@@ -9025,10 +8317,7 @@
         "textDecorationColor": "rgb(51, 51, 51)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u57_state2": {
         "blockSize": "30px",
@@ -9064,10 +8353,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u57_state2_content": {
         "blockSize": "1px",
@@ -9100,10 +8386,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u60": {
         "blockSize": "30px",
@@ -9136,10 +8419,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u60_div": {
         "backgroundColor": "rgb(254, 252, 238)",
@@ -9190,10 +8470,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u60_text": {
         "alignSelf": "center",
@@ -9229,10 +8506,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p248": {
         "blockSize": "auto",
@@ -9267,10 +8541,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "span249": {
         "borderBlockStartColor": "rgb(255, 147, 76)",
@@ -9298,10 +8569,7 @@
         "textDecorationColor": "rgb(255, 147, 76)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "span250": {
         "borderBlockStartColor": "rgb(51, 51, 51)",
@@ -9328,10 +8596,7 @@
         "textDecorationColor": "rgb(51, 51, 51)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u61": {
         "blockSize": "30px",
@@ -9364,10 +8629,7 @@
         "top": "316px",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u61_img": {
         "blockSize": "30px",
@@ -9401,10 +8663,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "350px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "350px"
     },
     "u61_text": {
         "alignSelf": "center",
@@ -9444,10 +8703,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p254": {
         "blockSize": "auto",
@@ -9482,10 +8738,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "u62": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -9513,10 +8766,6 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "WebkitTextDecorationsInEffect": "none",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
         "cursor": "pointer"
     },
     "span256": {
@@ -9544,10 +8793,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "span257": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -9574,10 +8820,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u63": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -9605,10 +8848,6 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "WebkitTextDecorationsInEffect": "none",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
         "cursor": "pointer"
     },
     "span259": {
@@ -9636,10 +8875,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "span260": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -9666,10 +8902,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u64": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -9697,10 +8930,6 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "inherit",
-        "WebkitTextDecorationsInEffect": "none",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
         "cursor": "pointer"
     },
     "span262": {
@@ -9728,10 +8957,7 @@
         "textDecorationColor": "rgb(153, 153, 153)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
-        "visibility": "hidden",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "visibility": "hidden"
     },
     "u66": {
         "blockSize": "174px",
@@ -9766,11 +8992,8 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "900px 87px",
-        "width": "1800px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
-        "left": "-250px"
+        "width": "1300px",
+        "left": "0px"
     },
     "u66_state0": {
         "backgroundColor": "rgb(24, 24, 24)",
@@ -9809,10 +9032,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "900px 87px",
-        "width": "1800px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1300px"
     },
     "u66_state0_content": {
         "blockSize": "1px",
@@ -9840,7 +9060,7 @@
         "insetInlineStart": "0px",
         "insetInlineEnd": "1549px",
         "marginInlineStart": "250px",
-        "marginLeft": "0px",
+        "marginLeft": "-250px",
         "outlineColor": "rgb(102, 102, 102)",
         "perspectiveOrigin": "0.5px 0.5px",
         "position": "absolute",
@@ -9850,10 +9070,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "0.5px 0.5px",
-        "width": "1px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1px"
     },
     "u68": {
         "blockSize": "60px",
@@ -9891,10 +9108,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
         "transformOrigin": "600px 30px",
-        "width": "1200px",
-        "WebkitTextEmphasisColor": "rgb(204, 204, 204)",
-        "WebkitTextFillColor": "rgb(204, 204, 204)",
-        "WebkitTextStrokeColor": "rgb(204, 204, 204)"
+        "width": "1200px"
     },
     "u68_img": {
         "blockSize": "60px",
@@ -9932,10 +9146,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
         "transformOrigin": "600px 30px",
-        "width": "1200px",
-        "WebkitTextEmphasisColor": "rgb(204, 204, 204)",
-        "WebkitTextFillColor": "rgb(204, 204, 204)",
-        "WebkitTextStrokeColor": "rgb(204, 204, 204)"
+        "width": "1200px"
     },
     "u68_text": {
         "alignSelf": "center",
@@ -9981,10 +9192,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
         "transformOrigin": "600px 38px",
-        "width": "1200px",
-        "WebkitTextEmphasisColor": "rgb(204, 204, 204)",
-        "WebkitTextFillColor": "rgb(204, 204, 204)",
-        "WebkitTextStrokeColor": "rgb(204, 204, 204)"
+        "width": "1200px"
     },
     "p269": {
         "blockSize": "24px",
@@ -10019,10 +9227,7 @@
         "textDecorationColor": "rgb(204, 204, 204)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "599px 12px",
-        "width": "1198px",
-        "WebkitTextEmphasisColor": "rgb(204, 204, 204)",
-        "WebkitTextFillColor": "rgb(204, 204, 204)",
-        "WebkitTextStrokeColor": "rgb(204, 204, 204)"
+        "width": "1198px"
     },
     "span270": {
         "borderBlockStartColor": "rgb(204, 204, 204)",
@@ -10047,10 +9252,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(204, 204, 204)",
-        "WebkitTextFillColor": "rgb(204, 204, 204)",
-        "WebkitTextStrokeColor": "rgb(204, 204, 204)"
+        "textRendering": "optimizelegibility"
     },
     "p271": {
         "blockSize": "24px",
@@ -10085,10 +9287,7 @@
         "textDecorationColor": "rgb(204, 204, 204)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "599px 12px",
-        "width": "1198px",
-        "WebkitTextEmphasisColor": "rgb(204, 204, 204)",
-        "WebkitTextFillColor": "rgb(204, 204, 204)",
-        "WebkitTextStrokeColor": "rgb(204, 204, 204)"
+        "width": "1198px"
     },
     "span272": {
         "borderBlockStartColor": "rgb(204, 204, 204)",
@@ -10113,10 +9312,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(204, 204, 204)",
-        "WebkitTextFillColor": "rgb(204, 204, 204)",
-        "WebkitTextStrokeColor": "rgb(204, 204, 204)"
+        "textRendering": "optimizelegibility"
     },
     "p273": {
         "blockSize": "24px",
@@ -10151,10 +9347,7 @@
         "textDecorationColor": "rgb(204, 204, 204)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "599px 12px",
-        "width": "1198px",
-        "WebkitTextEmphasisColor": "rgb(204, 204, 204)",
-        "WebkitTextFillColor": "rgb(204, 204, 204)",
-        "WebkitTextStrokeColor": "rgb(204, 204, 204)"
+        "width": "1198px"
     },
     "span274": {
         "borderBlockStartColor": "rgb(204, 204, 204)",
@@ -10179,10 +9372,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(204, 204, 204)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(204, 204, 204)",
-        "WebkitTextFillColor": "rgb(204, 204, 204)",
-        "WebkitTextStrokeColor": "rgb(204, 204, 204)"
+        "textRendering": "optimizelegibility"
     },
     "u69": {
         "blockSize": "40px",
@@ -10220,10 +9410,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "600px 20px",
-        "width": "1200px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1200px"
     },
     "u69_img": {
         "blockSize": "40px",
@@ -10261,10 +9448,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "600px 20px",
-        "width": "1200px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1200px"
     },
     "u69_text": {
         "alignSelf": "center",
@@ -10310,10 +9494,7 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "600px 14px",
-        "width": "1200px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1200px"
     },
     "p278": {
         "blockSize": "24px",
@@ -10348,10 +9529,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "textRendering": "optimizelegibility",
         "transformOrigin": "599px 12px",
-        "width": "1198px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "1198px"
     },
     "span279": {
         "borderBlockStartColor": "rgb(102, 102, 102)",
@@ -10376,10 +9554,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u70": {
         "borderBlockStartColor": "rgb(102, 102, 102)",
@@ -10405,10 +9580,6 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "textRendering": "optimizelegibility",
-        "WebkitTextDecorationsInEffect": "none",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
         "cursor": "pointer"
     },
     "span281": {
@@ -10434,10 +9605,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "span282": {
         "borderBlockStartColor": "rgb(102, 102, 102)",
@@ -10462,10 +9630,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u71": {
         "borderBlockStartColor": "rgb(102, 102, 102)",
@@ -10491,10 +9656,6 @@
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
         "textRendering": "optimizelegibility",
-        "WebkitTextDecorationsInEffect": "none",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)",
         "cursor": "pointer"
     },
     "span284": {
@@ -10520,10 +9681,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "span285": {
         "borderBlockStartColor": "rgb(102, 102, 102)",
@@ -10548,10 +9706,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u72": {
         "borderBlockStartColor": "rgb(102, 102, 102)",
@@ -10577,11 +9732,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextDecorationsInEffect": "none",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "span287": {
         "borderBlockStartColor": "rgb(153, 153, 153)",
@@ -10606,10 +9757,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(153, 153, 153)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "span288": {
         "borderBlockStartColor": "rgb(102, 102, 102)",
@@ -10634,10 +9782,7 @@
         "textDecorationThickness": "initial",
         "textDecorationStyle": "solid",
         "textDecorationColor": "rgb(102, 102, 102)",
-        "textRendering": "optimizelegibility",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "textRendering": "optimizelegibility"
     },
     "u73": {
         "blockSize": "112px",
@@ -10671,10 +9816,7 @@
         "top": "655px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "120px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "120px"
     },
     "u73_img": {
         "blockSize": "112px",
@@ -10708,10 +9850,7 @@
         "top": "0px",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "120px",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "120px"
     },
     "u73_text": {
         "alignSelf": "center",
@@ -10752,10 +9891,7 @@
         "textDecorationColor": "rgb(102, 102, 102)",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "100%",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "100%"
     },
     "p292": {
         "blockSize": "auto",
@@ -10790,10 +9926,7 @@
         "textRendering": "optimizelegibility",
         "transformOrigin": "50% 50%",
         "visibility": "hidden",
-        "width": "auto",
-        "WebkitTextEmphasisColor": "rgb(102, 102, 102)",
-        "WebkitTextFillColor": "rgb(102, 102, 102)",
-        "WebkitTextStrokeColor": "rgb(102, 102, 102)"
+        "width": "auto"
     },
     "u67": {
         "blockSize": "auto",
