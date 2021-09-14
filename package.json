@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "0.21.2",
     "http": "^0.0.1-security",
     "parse5": "^6.0.1",
     "puppeteer": "^8.0.0",
