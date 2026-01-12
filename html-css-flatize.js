@@ -13,6 +13,79 @@ let cssDefaultValues = JSON.parse(cssDefaultJSONText);
 
 
 
+const home2={
+  page:"http://www.cmbchina.com/",
+  output:"cmb.html"
+
+}
+const baidu={
+  page:"http://www.baidu.com/",
+  output:"baidu.html"
+
+}//https://cmstest.ggas.com/ggas-big-dashboard/
+
+const dash={
+  page:"https://cmstest.ggas.com/ggas-big-dashboard/",
+  output:"cms-dash.html"
+
+}
+
+const ccb={
+  page:"http://www.ccb.com/cn/home/indexv3.html",
+  output:"ccb.html"
+
+}
+//https://cmstest.ggas.com/cmes/merchantManager/showTriQrCode/T000001/
+
+
+const showTriQrCode={
+  page:"https://cmstest.ggas.com/cmes/merchantManager/showTriQrCode/T000001/",
+  output:"showTriQrCode.html"
+
+}
+
+
+const ggas={
+  page:"http://www.ggas.com/",
+  output:"ggas.html"
+
+}
+
+
+const location=showTriQrCode;
+
+/*
+  page.on('response', response => {
+    if (response.url())
+      console.log("response code: ", response.url());
+      // do something here
+  });
+page.on('response', async response => {
+        const url = response.url();
+        if (response.request().resourceType() === 'image') {
+            response.buffer().then(file => {
+                const fileName = url.split('/').pop();
+                const filePath = path.resolve(__dirname, fileName);
+                const writeStream = fs.createWriteStream(filePath);
+                writeStream.write(file);
+            });
+        }
+    });
+
+
+    page.on('response', async response => {
+    const url = response.url();
+    console.log(url)
+    if (response.request().resourceType() === 'image') {
+        response.buffer().then(file => {
+            console.log(url)
+        });
+    }
+  });
+
+
+*/
+
 
 (async () => {
   //const browser = await puppeteer.launch();
@@ -28,43 +101,43 @@ let cssDefaultValues = JSON.parse(cssDefaultJSONText);
   const browser = await puppeteer.connect({ browserWSEndpoint: url });	
   const page = await browser.newPage();
   //await page.setViewport({ width: 1440, height: 900})
-  await page.setViewport({ width: 1080, height: 720})
-  //await page.setDefaultNavigationTimeout(1000000);
-  await page.setDefaultNavigationTimeout(0);
+  await page.setViewport({ width: 1440, height: 900})
+  await page.setDefaultNavigationTimeout(10000);
+  //await page.setDefaultNavigationTimeout(0);
 
   
 
-  //var pageURL="http://www.cmbchina.com/"
-  
-  //var pageURL="http://www.ccb.com/cn/home/indexv3.html"
-  var pageURL="https://www.gov.cn/"
-  //var pageURL="https://www.pmdaniu.com/clouds/133784/62ddde7e8aac61d38a24bcd43d6f1aae-130884/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.html"
-  
-  //var pageURL="http://localhost:8080/ggas/login.html"
-  //var outputFile="login-style.js"
-  var outputFile="gov.html"
+  var pageURL=location.page
+  var outputFile=location.output
 
 
 
-
-  //var pageURL="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout/Multiple-column_Layout";
-
-  
+  page.on('response', async response => {
+    const url = response.url();
+    console.log(url)
+    if (response.request().resourceType() === 'image') {
+        response.buffer().then(file => {
+            console.log(url)
+        });
+    }
+  });
   await page.goto(pageURL,{ waitUntil: 'networkidle0'});
-  
-  /*
 
-  await page.goto('https://www.pmdaniu.com/clouds/133784/62ddde7e8aac61d38a24bcd43d6f1aae-130884/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.html',{ waitUntil: 'networkidle0'});
-  
-  const data = await page.evaluate(() => document.querySelector('*').outerHTML);
 
-  console.log(data);
-  */
-  await page.waitForTimeout(2000);
+
+
+
+
+  //await page.waitForTimeout(2000);
   //await page.screenshot({path: 'home.png'});
 
   page.on('console', consoleObj => console.log(consoleObj.text()));
   
+
+  
+
+
+
   await page.evaluate(({cssDefaultValues}) => {
     const styleList=[];
     const elements = document.body.getElementsByTagName("*");
@@ -102,15 +175,6 @@ let cssDefaultValues = JSON.parse(cssDefaultJSONText);
       element.setAttribute("componentid",componentId)
       element.setAttribute("reactcomponent","")
       
-      //element.setAttribute("style-back",cssExpr)
-      //element.style.fontSize="150px";
-      //element.removeAttribute("class")
-      //element.removeAttribute("id")
-      //element.style=getComputedStyle(element);
-     
-      //element.removeAttribute("class")
-      //console.log(element,"=>");
-      //cssText
       return element.tagName
 
       

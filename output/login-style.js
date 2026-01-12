@@ -74,9 +74,7 @@
             
             <div id="u10" componentid="u10" style={makestyle({elementId:'u10'})}>
               <img id="u10_img" src="images/登录界面/u10.png" componentid="u10_img" style={makestyle({elementId:'u10_img'})}/>
-              <div id="u10_text" style={makestyle({elementId:'u10_text'})} componentid="u10_text">
-                <p componentid="p40" style={makestyle({elementId:'p40'})}/>
-              </div>
+              
             </div>
 
             
@@ -102,9 +100,7 @@
       
       <div id="u13" componentid="u13" style={makestyle({elementId:'u13'})}>
         <img id="u13_img" src="images/登录界面/u13.jpg" componentid="u13_img" style={makestyle({elementId:'u13_img'})}/>
-        <div id="u13_text" style={makestyle({elementId:'u13_text'})} componentid="u13_text">
-          <p componentid="p55" style={makestyle({elementId:'p55'})}/>
-        </div>
+        
       </div>
 
       
@@ -123,9 +119,7 @@
             
             <div id="u16" componentid="u16" style={makestyle({elementId:'u16'})}>
               <div id="u16_div" componentid="u16_div" style={makestyle({elementId:'u16_div'})}/>
-              <div id="u16_text" style={makestyle({elementId:'u16_text'})} componentid="u16_text">
-                <p componentid="p69" style={makestyle({elementId:'p69'})}/>
-              </div>
+              
             </div>
 
             
@@ -137,44 +131,7 @@
             </div>
 
             
-            <div id="u18" data-label="警告提示" componentid="u18" style={makestyle({elementId:'u18'})}>
-              <div id="u18_state0" data-label="登录名或登录密码不正确" componentid="u18_state0" style={makestyle({elementId:'u18_state0'})}>
-                <div id="u18_state0_content" componentid="u18_state0_content" style={makestyle({elementId:'u18_state0_content'})}>
-
-                  
-                  <div id="u19" componentid="u19" style={makestyle({elementId:'u19'})}>
-                    <div id="u19_div" componentid="u19_div" style={makestyle({elementId:'u19_div'})}/>
-                    <div id="u19_text" componentid="u19_text" style={makestyle({elementId:'u19_text'})}>
-                      <p componentid="p81" style={makestyle({elementId:'p81'})}><span componentid="span82" style={makestyle({elementId:'span82'})}></span><span componentid="span83" style={makestyle({elementId:'span83'})}> 登录名或登录密码不正确</span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="u18_state1" data-label="请输入帐户名" componentid="u18_state1" style={makestyle({elementId:'u18_state1'})}>
-                <div id="u18_state1_content" componentid="u18_state1_content" style={makestyle({elementId:'u18_state1_content'})}>
-
-                  
-                  <div id="u20" componentid="u20" style={makestyle({elementId:'u20'})}>
-                    <div id="u20_div" componentid="u20_div" style={makestyle({elementId:'u20_div'})}/>
-                    <div id="u20_text" componentid="u20_text" style={makestyle({elementId:'u20_text'})}>
-                      <p componentid="p89" style={makestyle({elementId:'p89'})}><span componentid="span90" style={makestyle({elementId:'span90'})}></span><span componentid="span91" style={makestyle({elementId:'span91'})}> 请输入帐户名</span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="u18_state2" data-label="请输入登录密码" componentid="u18_state2" style={makestyle({elementId:'u18_state2'})}>
-                <div id="u18_state2_content" componentid="u18_state2_content" style={makestyle({elementId:'u18_state2_content'})}>
-
-                  
-                  <div id="u21" componentid="u21" style={makestyle({elementId:'u21'})}>
-                    <div id="u21_div" componentid="u21_div" style={makestyle({elementId:'u21_div'})}/>
-                    <div id="u21_text" componentid="u21_text" style={makestyle({elementId:'u21_text'})}>
-                      <p componentid="p97" style={makestyle({elementId:'p97'})}><span componentid="span98" style={makestyle({elementId:'span98'})}></span><span componentid="span99" style={makestyle({elementId:'span99'})}> 请输入登录密码</span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
 
             
             <div id="u22" componentid="u22" style={makestyle({elementId:'u22'})}>
@@ -190,9 +147,7 @@
               
               <div id="u24" data-label="边框" componentid="u24" style={makestyle({elementId:'u24'})}>
                 <img id="u24_img" src="images/登录界面/边框_u24.svg" componentid="u24_img" style={makestyle({elementId:'u24_img'})}/>
-                <div id="u24_text" style={makestyle({elementId:'u24_text'})} componentid="u24_text">
-                  <p componentid="p109" style={makestyle({elementId:'p109'})}/>
-                </div>
+                
               </div>
 
               
@@ -224,9 +179,7 @@
               
               <div id="u29" data-label="边框" componentid="u29" style={makestyle({elementId:'u29'})}>
                 <img id="u29_img" src="images/登录界面/边框_u29.svg" componentid="u29_img" style={makestyle({elementId:'u29_img'})}/>
-                <div id="u29_text" style={makestyle({elementId:'u29_text'})} componentid="u29_text">
-                  <p componentid="p127" style={makestyle({elementId:'p127'})}/>
-                </div>
+                
               </div>
 
               
@@ -282,177 +235,12 @@
               
               <div id="u40" componentid="u40" style={makestyle({elementId:'u40'})}>
                 <img id="u40_img" src="images/登录界面/u40.svg" componentid="u40_img" style={makestyle({elementId:'u40_img'})}/>
-                <div id="u40_text" style={makestyle({elementId:'u40_text'})} componentid="u40_text">
-                  <p componentid="p167" style={makestyle({elementId:'p167'})}/>
-                </div>
+                
               </div>
             </div>
           </div>
         </div>
-        <div id="u15_state1" data-label="手机登录" componentid="u15_state1" style={makestyle({elementId:'u15_state1'})}>
-          <div id="u15_state1_content" componentid="u15_state1_content" style={makestyle({elementId:'u15_state1_content'})}>
-
-            
-            <div id="u41" componentid="u41" style={makestyle({elementId:'u41'})}>
-              <div id="u41_div" componentid="u41_div" style={makestyle({elementId:'u41_div'})}/>
-              <div id="u41_text" style={makestyle({elementId:'u41_text'})} componentid="u41_text">
-                <p componentid="p173" style={makestyle({elementId:'p173'})}/>
-              </div>
-            </div>
-
-            
-            <div id="u42" componentid="u42" style={makestyle({elementId:'u42'})}>
-              <img id="u42_img" src="images/登录界面/u22.svg" componentid="u42_img" style={makestyle({elementId:'u42_img'})}/>
-              <div id="u42_text" componentid="u42_text" style={makestyle({elementId:'u42_text'})}>
-                <p componentid="p177" style={makestyle({elementId:'p177'})}><span componentid="span178" style={makestyle({elementId:'span178'})}>手机登录</span></p>
-              </div>
-            </div>
-
-            
-            <div id="u43" componentid="u43" style={makestyle({elementId:'u43'})}>
-              <img id="u43_img" src="images/登录界面/u37.svg" componentid="u43_img" style={makestyle({elementId:'u43_img'})}/>
-              <div id="u43_text" componentid="u43_text" style={makestyle({elementId:'u43_text'})}>
-                <p componentid="p182" style={makestyle({elementId:'p182'})}><span componentid="span183" style={makestyle({elementId:'span183'})}>账号登录</span></p>
-              </div>
-            </div>
-
-            
-            <div id="u44" data-left="340" data-width="40" componentid="u44" style={makestyle({elementId:'u44'})}>
-
-              
-              <div id="u45" data-label="图标" componentid="u45" style={makestyle({elementId:'u45'})}>
-                <img id="u45_img" src="images/登录界面/图标_u39.svg" componentid="u45_img" style={makestyle({elementId:'u45_img'})}/>
-                <div id="u45_text" componentid="u45_text" style={makestyle({elementId:'u45_text'})}>
-                  <p componentid="p188" style={makestyle({elementId:'p188'})}><span componentid="span189" style={makestyle({elementId:'span189'})}></span></p>
-                </div>
-              </div>
-
-              
-              <div id="u46" componentid="u46" style={makestyle({elementId:'u46'})}>
-                <img id="u46_img" src="images/登录界面/u40.svg" componentid="u46_img" style={makestyle({elementId:'u46_img'})}/>
-                <div id="u46_text" style={makestyle({elementId:'u46_text'})} componentid="u46_text">
-                  <p componentid="p193" style={makestyle({elementId:'p193'})}/>
-                </div>
-              </div>
-            </div>
-
-            
-            <div id="u47" data-left="53" data-width="307" componentid="u47" style={makestyle({elementId:'u47'})}>
-
-              
-              <div id="u48" data-left="53" data-width="307" componentid="u48" style={makestyle({elementId:'u48'})}>
-
-                
-                <div id="u49" componentid="u49" style={makestyle({elementId:'u49'})}>
-                  <div id="u49_div" componentid="u49_div" style={makestyle({elementId:'u49_div'})}/>
-                  <input id="u49_input" value="" style={makestyle({elementId:'u49_input'})} componentid="u49_input"/>
-                </div>
-
-                
-                <div id="u50" componentid="u50" style={makestyle({elementId:'u50'})}>
-                  <img id="u50_img" src="images/登录界面/u50.svg" componentid="u50_img" style={makestyle({elementId:'u50_img'})}/>
-                  <div id="u50_text" style={makestyle({elementId:'u50_text'})} componentid="u50_text">
-                    <p componentid="p202" style={makestyle({elementId:'p202'})}/>
-                  </div>
-                </div>
-              </div>
-
-              
-              <div id="u51" data-left="53" data-width="178" componentid="u51" style={makestyle({elementId:'u51'})}>
-
-                
-                <div id="u52" componentid="u52" style={makestyle({elementId:'u52'})}>
-                  <div id="u52_div" componentid="u52_div" style={makestyle({elementId:'u52_div'})}/>
-                  <input id="u52_input" value="" style={makestyle({elementId:'u52_input'})} componentid="u52_input"/>
-                </div>
-
-                
-                <div id="u53" componentid="u53" style={makestyle({elementId:'u53'})}>
-                  <img id="u53_img" src="images/登录界面/u53.svg" componentid="u53_img" style={makestyle({elementId:'u53_img'})}/>
-                  <div id="u53_text" style={makestyle({elementId:'u53_text'})} componentid="u53_text">
-                    <p componentid="p210" style={makestyle({elementId:'p210'})}/>
-                  </div>
-                </div>
-              </div>
-
-              
-              <div id="u54" data-label="发送验证码" componentid="u54" style={makestyle({elementId:'u54'})}>
-                <div id="u54_div" tabindex="0" componentid="u54_div" style={makestyle({elementId:'u54_div'})}/>
-                <div id="u54_text" componentid="u54_text" style={makestyle({elementId:'u54_text'})}>
-                  <p componentid="p214" style={makestyle({elementId:'p214'})}><span componentid="span215" style={makestyle({elementId:'span215'})}>发送验证码</span></p>
-                </div>
-              </div>
-
-              
-              <div id="u55" data-label="触发面板" componentid="u55" style={makestyle({elementId:'u55'})}>
-                <div id="u55_state0" data-label="State1" componentid="u55_state0" style={makestyle({elementId:'u55_state0'})}>
-                  <div id="u55_state0_content" componentid="u55_state0_content" style={makestyle({elementId:'u55_state0_content'})}>
-                  </div>
-                </div>
-                <div id="u55_state1" data-label="State2" componentid="u55_state1" style={makestyle({elementId:'u55_state1'})}>
-                  <div id="u55_state1_content" componentid="u55_state1_content" style={makestyle({elementId:'u55_state1_content'})}>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            
-            <div id="u56" data-label="登录按纽" componentid="u56" style={makestyle({elementId:'u56'})}>
-              <div id="u56_div" tabindex="0" componentid="u56_div" style={makestyle({elementId:'u56_div'})}/>
-              <div id="u56_text" componentid="u56_text" style={makestyle({elementId:'u56_text'})}>
-                <p componentid="p224" style={makestyle({elementId:'p224'})}><span componentid="span225" style={makestyle({elementId:'span225'})}>登录</span></p>
-              </div>
-            </div>
-
-            
-            <div id="u57" data-label="警告提示" componentid="u57" style={makestyle({elementId:'u57'})}>
-              <div id="u57_state0" data-label="登录名或登录密码不正确" componentid="u57_state0" style={makestyle({elementId:'u57_state0'})}>
-                <div id="u57_state0_content" componentid="u57_state0_content" style={makestyle({elementId:'u57_state0_content'})}>
-
-                  
-                  <div id="u58" componentid="u58" style={makestyle({elementId:'u58'})}>
-                    <div id="u58_div" componentid="u58_div" style={makestyle({elementId:'u58_div'})}/>
-                    <div id="u58_text" componentid="u58_text" style={makestyle({elementId:'u58_text'})}>
-                      <p componentid="p232" style={makestyle({elementId:'p232'})}><span componentid="span233" style={makestyle({elementId:'span233'})}></span><span componentid="span234" style={makestyle({elementId:'span234'})}> 登录名或登录密码不正确</span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="u57_state1" data-label="请输入帐户名" componentid="u57_state1" style={makestyle({elementId:'u57_state1'})}>
-                <div id="u57_state1_content" componentid="u57_state1_content" style={makestyle({elementId:'u57_state1_content'})}>
-
-                  
-                  <div id="u59" componentid="u59" style={makestyle({elementId:'u59'})}>
-                    <div id="u59_div" componentid="u59_div" style={makestyle({elementId:'u59_div'})}/>
-                    <div id="u59_text" componentid="u59_text" style={makestyle({elementId:'u59_text'})}>
-                      <p componentid="p240" style={makestyle({elementId:'p240'})}><span componentid="span241" style={makestyle({elementId:'span241'})}></span><span componentid="span242" style={makestyle({elementId:'span242'})}> 请输入帐户名</span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="u57_state2" data-label="请输入登录密码" componentid="u57_state2" style={makestyle({elementId:'u57_state2'})}>
-                <div id="u57_state2_content" componentid="u57_state2_content" style={makestyle({elementId:'u57_state2_content'})}>
-
-                  
-                  <div id="u60" componentid="u60" style={makestyle({elementId:'u60'})}>
-                    <div id="u60_div" componentid="u60_div" style={makestyle({elementId:'u60_div'})}/>
-                    <div id="u60_text" componentid="u60_text" style={makestyle({elementId:'u60_text'})}>
-                      <p componentid="p248" style={makestyle({elementId:'p248'})}><span componentid="span249" style={makestyle({elementId:'span249'})}></span><span componentid="span250" style={makestyle({elementId:'span250'})}> 请输入登录密码</span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            
-            <div id="u61" componentid="u61" style={makestyle({elementId:'u61'})}>
-              <img id="u61_img" src="images/登录界面/u33.svg" componentid="u61_img" style={makestyle({elementId:'u61_img'})}/>
-              <div id="u61_text" componentid="u61_text" style={makestyle({elementId:'u61_text'})}>
-                <p componentid="p254" style={makestyle({elementId:'p254'})}><a id="u62" tabindex="0" componentid="u62" style={makestyle({elementId:'u62'})}><span componentid="span256" style={makestyle({elementId:'span256'})}>忘记密码</span></a><span componentid="span257" style={makestyle({elementId:'span257'})}>  </span><a id="u63" tabindex="0" componentid="u63" style={makestyle({elementId:'u63'})}><span componentid="span259" style={makestyle({elementId:'span259'})}>忘记用户名</span></a><span componentid="span260" style={makestyle({elementId:'span260'})}>   用户</span><a id="u64" tabindex="0" componentid="u64" style={makestyle({elementId:'u64'})}><span componentid="span262" style={makestyle({elementId:'span262'})}>注册</span></a></p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
 
       
@@ -486,9 +274,7 @@
       
       <div id="u73" data-label="气体工具箱" componentid="u73" style={makestyle({elementId:'u73'})}>
         <img id="u73_img" src="images/登录界面/气体工具箱_u73.png" componentid="u73_img" style={makestyle({elementId:'u73_img'})}/>
-        <div id="u73_text" style={makestyle({elementId:'u73_text'})} componentid="u73_text">
-          <p componentid="p292" style={makestyle({elementId:'p292'})}/>
-        </div>
+        
       </div>
       <div id="u67" componentid="u67" style={makestyle({elementId:'u67'})}/>
       <div id="u65" componentid="u65" style={makestyle({elementId:'u65'})}/>

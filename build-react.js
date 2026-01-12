@@ -45,8 +45,8 @@ const replaceToStyle=(input)=>{
     //var pageURL="http://www.ccb.com/cn/home/indexv3.html"
     //var pageURL="https://www.pmdaniu.com/clouds/133784/62ddde7e8aac61d38a24bcd43d6f1aae-130884/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.html"
     
-    var pageURL="http://localhost:8080/ggas/login.html"
-    var outputFile="login-style.js"
+    var pageURL="http://localhost:8080/ggas/home-page.html"
+    var outputFile="home-style.js"
     
     
     await page.goto(pageURL,{ waitUntil: 'networkidle0'});
@@ -79,6 +79,7 @@ const replaceToStyle=(input)=>{
           if(element.tagName==='SCRIPT'){
               return {};
           }
+          
          // console.log(element.getAttribute("componentid")+"=================================");
   
           //for (var i = styleObj.length; i--;) 
@@ -88,10 +89,30 @@ const replaceToStyle=(input)=>{
               if(nameString.startsWith("-webkit")){
                 continue;
               }
+              
+              if(nameString.startsWith("border-")){
+                continue;
+              }
+              /*
+              if(nameString.startsWith("text-decoration")){
+                continue;
+              }*/
+
+
 
               var value = styleObj.getPropertyValue(nameString);
               //console.log("\t"+camelCased(nameString)+": \""+ value+"\";");
-  
+              if( element.parentElement ){
+                var parentStyleObj = element.parentElement.style
+                var parentValue = parentStyleObj.getPropertyValue(nameString);
+                if(parentValue===value){
+                  //continue;
+                }
+
+
+              }
+              
+
               styleDefine[camelCased(nameString)] = value;
               //need to notice differ starts with -webkit-
   
@@ -114,7 +135,7 @@ const replaceToStyle=(input)=>{
     });
   
   
-    fs.writeFile('output/login-style.json', JSON.stringify(styleData,null,4), err => {
+    fs.writeFile('/Users/Philip/githome/dyna-react-ui/src/layouts/ggashome/homestyle.json', JSON.stringify(styleData,null,4), err => {
       if (err) {
         console.error(err)
         return
@@ -202,6 +223,16 @@ const replaceToStyle=(input)=>{
         if(element.tagName==='SCRIPT'){
           element.remove();
         }
+        var elementStyle = getComputedStyle(element,false);
+        if(elementStyle.getPropertyValue("visibility")==='hidden'){
+          console.log("kill visibility=hidden", element.getAttribute("id"))
+          //element.remove();
+        }
+        if(elementStyle.getPropertyValue("display")==='none'){
+          console.log("kill display=none", element.getAttribute("id"))
+          element.remove();
+        }
+        
   
       })
       
@@ -222,7 +253,7 @@ const replaceToStyle=(input)=>{
           
           //.replace("<!--","{/*")
           //.replace("-->","*/}")
-    fs.writeFile('output/'+outputFile, finalContent, err => {
+    fs.writeFile('/Users/Philip/githome/dyna-react-ui/src/layouts/ggashome/homepage.js', finalContent, err => {
         if (err) {
           console.error(err)
           return
